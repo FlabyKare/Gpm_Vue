@@ -1,0 +1,102 @@
+<template>
+   <div id="intro" class="intro container">
+      <h1 class="intro_title">
+         Experience the Power of <span>Digital</span> Business Profiles!
+      </h1>
+      <p class="intro_text">And discover the added perks.</p>
+      <Ubutton class="intro_btn">Get started for free</Ubutton>
+      <img class="employees" src="@/assets/img/Header/Peoples.png" />
+   </div>
+</template>
+
+<style lang="scss">
+@import "@/assets/common/fonts";
+.intro {
+   margin-top: 100px;
+   overflow-x: hidden;
+   * {
+      z-index: 1;
+      position: relative;
+   }
+   h1 {
+      font-family: $Poppins;
+      font-weight: 900;
+      font-size: 56px;
+      line-height: 62px;
+      color: #ffffff;
+      max-width: 565px;
+      hyphens: auto;
+   }
+   .intro_text {
+      hyphens: auto;
+      font-family: $Poppins;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 30px;
+      color: #ffffff;
+      max-width: 500px;
+      margin-top: 20px;
+   }
+   .intro_btn {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 80px;
+   }
+   h1 span,
+   h1 span * {
+      background: linear-gradient(90deg, #5ed3d0 56.44%, #8750f3 86.81%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+   }
+   .employees {
+      width: 580px;
+      height: 1175px;
+      position: fixed;
+      top: 0;
+      transform: rotate(37deg);
+      z-index: 0;
+   }
+}
+@media (min-width: 320px) and (max-width: 575.98px) {
+   #intro {
+      padding: 0 20px;
+      .intro_title {
+         font-size: 28px;
+         line-height: 32px;
+      }
+   }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+}
+@media (max-width: 964.98px) {
+   .employees {
+      opacity: 0.4;
+      top: 20%;
+      right: 20%;
+   }
+}
+@media (min-width: 965px) and (max-width: 1199.98px) {
+   .employees {
+      right: -3%;
+   }
+}
+@media (max-width: 1199.98px) {
+   .intro {
+      padding-left: 20px;
+   }
+}
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+   .employees {
+      right: 7%;
+   }
+}
+@media (min-width: 1400px) {
+   .employees {
+      right: 17%;
+   }
+}
+</style>
