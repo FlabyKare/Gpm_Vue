@@ -3,10 +3,10 @@ import { onMounted } from "vue";
 import allScripts from "@/assets/js/script.js";
 
 onMounted(() => {
-   allScripts(); // <div>
+   allScripts();
 });
 </script>
 
 <template>
-   <NavComponent />
+   <Header />
 </template>

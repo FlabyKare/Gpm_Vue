@@ -30,14 +30,23 @@ $size: 200px;
    width: 100%;
    height: 100%;
    overflow: hidden;
-   .preloader_wrapper {
+   position: relative;
+   .circles_wrapper {
       display: flex;
       justify-content: center;
       align-items: center;
-      position: absolute;
+
+      position: fixed;
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
+   }
+   .preloader_wrapper {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+
       background: #221f2c;
       width: 105%;
       height: 105%;
@@ -143,6 +152,7 @@ $size: 200px;
    flex-direction: column;
    min-height: 100vh;
    overflow-x: hidden; //? Для Анимаций
+   position: relative;
    header {
       width: 100%;
    }
@@ -165,7 +175,11 @@ $size: 200px;
    max-width: 1030px;
    margin: 0 auto;
 }
-
+.intro,
+.app_info_wrapper {
+   padding: 0 20px;
+   max-width: 1300px;
+}
 .hover_shadow {
    transition: 0.5s;
    &:hover {
@@ -387,4 +401,28 @@ $size: 200px;
 
       color: #a67afd !important;
    }
+}
+
+.intro_btn {
+   font-size: 20px;
+   line-height: 30px;
+}
+
+.default_title {
+   font-family: $Poppins;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 50px;
+   color: #ffffff;
+   max-width: 500px;
+   hyphens: auto;
+}
+.default_text {
+   font-family: $Poppins;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   color: #ffffff;
+   max-width: 500px;
+   hyphens: auto;
 }
