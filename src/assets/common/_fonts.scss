@@ -1,0 +1,53 @@
+// @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&display=swap");
+
+@font-face {
+   font-family: Montserrat;
+   font-weight: 400;
+   font-style: normal;
+   font-display: swap;
+   src: url("../fonts/Montserrat-Black.ttf") format("truetype"),
+      url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+$Poppins: "Manrope", sans-serif;
+$Lalezar: "Lalezar", sans-serif;
+$Mont: "Montserrat", sans-serif;
+
+@mixin dropDownItemStyles {
+   background: #20202094;
+   border-radius: 6px;
+   min-width: 236px;
+   padding: 10px 25px 10px 21px;
+   cursor: pointer;
+   display: none;
+   &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      p {
+         color: #8750f3 !important;
+      }
+   }
+}
+
+@mixin dropDownLinkStyles {
+   display: flex;
+   gap: 17px;
+   align-items: center;
+   text-decoration: none;
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   img {
+      width: 17px;
+      height: 23px;
+   }
+   p {
+      font-family: $Poppins;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 20px;
+      color: #ffffff;
+   }
+}
