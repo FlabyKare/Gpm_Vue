@@ -87,7 +87,7 @@ img {
 
 @media (min-width: 320px) and (max-width: 575.98px) {
    .default_text {
-      margin: 25px auto 50px;
+      margin: 25px auto 0;
    }
    article {
       display: flex;
@@ -114,11 +114,35 @@ img {
       }
    }
 }
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (max-width: 991.98px) {
    img {
       height: auto !important;
       width: 100%;
-      order: 1;
+      display: none;
+   }
+   .employees_mobile {
+      height: auto !important;
+      width: 100%;
+      display: block;
+      margin: 2% auto 0;
+   }
+   article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .intro_btn {
+      margin: 25px auto 0;
+   }
+}
+
+@media (min-width: 992px) {
+   img {
+      height: auto !important;
+      width: 100%;
+   }
+   .employees_mobile {
+      display: none;
    }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
