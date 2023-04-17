@@ -124,7 +124,7 @@ img {
       height: auto !important;
       width: 100%;
       display: block;
-      margin: 2% auto 0;
+      margin: 10% auto 0;
    }
    article {
       display: flex;
