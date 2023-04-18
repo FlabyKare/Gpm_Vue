@@ -1,5 +1,7 @@
 <template>
    <section class="app_info white_mode_color">
+      <div class="box"></div>
+
       <span class="white_mode_color"></span>
       <div class="app_info_wrapper container">
          <img
@@ -27,6 +29,8 @@
             <Ubutton class="intro_btn"> Get started for free</Ubutton>
          </article>
       </div>
+
+      <div class="box box2"></div>
    </section>
 </template>
 
@@ -34,7 +38,7 @@
 
 <style lang="scss" scoped>
 .app_info {
-   box-shadow: 0px -95px 130px 100px rgb(0, 0, 0);
+   //    box-shadow: 0px -95px 130px 100px rgb(0, 0, 0);
    margin-top: -20px;
    padding-top: 140px;
    background: #221f2c;
@@ -42,20 +46,11 @@
    position: relative;
    z-index: 1;
    span {
-      //   box-shadow: 0px 100px 100px 100px rgba(0, 0, 0, 1) inset;
-      background: rgb(0, 0, 0);
-      background: linear-gradient(
-         0deg,
-         rgba(0, 0, 0, 0.4962359943977591) 0%,
-         rgba(0, 0, 0, 1) 100%
-      );
-      filter: blur(15px);
-
+      box-shadow: 0px 105px 165px 185px rgb(0, 0, 0);
       width: 105%;
-      height: 75px;
-
+      height: 0px;
       position: absolute;
-      top: -40px;
+      top: -140px;
       left: -15px;
 
       &.active {
@@ -66,18 +61,31 @@
       box-shadow: 0px -95px 130px 100px rgb(255, 255, 255) !important;
    }
 }
+
+.box {
+   right: 0;
+   left: auto;
+}
 .app_info_wrapper {
    display: flex;
    justify-content: space-evenly;
    gap: 50px;
    flex-wrap: wrap;
+   * {
+      z-index: 1;
+   }
 }
 
 .intro_btn,
 .default_text {
    margin-top: 50px;
 }
-
+.box2 {
+   left: auto;
+   top: auto;
+   right: 0;
+   bottom: 0;
+}
 img {
    max-width: 515px;
    height: 495px;
@@ -108,9 +116,12 @@ img {
    }
    .app_info {
       padding-top: 50px;
-      box-shadow: 0px 0px 100px 100px rgb(0, 0, 0) !important;
+      //   box-shadow: 0px 0px 100px 100px rgb(0, 0, 0) !important;
+      span {
+         box-shadow: 0px 105px 155px 100px rgb(0, 0, 0);
+      }
       &.active {
-         box-shadow: 0px 0px 130px 100px rgb(255, 255, 255) !important;
+         //  box-shadow: 0px 25px 65px 120px rgb(255, 255, 255) !important;
       }
    }
 }

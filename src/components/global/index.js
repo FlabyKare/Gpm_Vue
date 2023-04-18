@@ -7,6 +7,7 @@ import Navigation from "./Navigation.vue";
 import Menu from "./Menu.vue";
 import Intro from "./Intro.vue";
 import AppInfo from "./AppInfo.vue";
+import SpruceSection from "./SpruceSection.vue";
 
 const components = [
    { name: "Header", component: Header },
@@ -18,6 +19,7 @@ const components = [
    { name: "Menu", component: Menu },
    { name: "Intro", component: Intro },
    { name: "AppInfo", component: AppInfo },
+   { name: "SpruceSection", component: SpruceSection },
 ];
 
 export default {

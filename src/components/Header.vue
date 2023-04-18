@@ -6,6 +6,7 @@
       <Navigation />
       <Intro />
       <AppInfo />
+      <SpruceSection />
    </header>
 </template>
 
