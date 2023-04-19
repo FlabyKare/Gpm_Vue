@@ -1,17 +1,21 @@
 <template>
    <section class="spruce">
-      <aside class="spruce_aside container white_mode_color">
-         <h3 class="default_title">
+      <aside
+         class="spruce_aside container white_mode_color animation_fromBottom_to_up element-animation"
+      >
+         <h3
+            class="default_title animation_fromLeft_to_right element-animation"
+         >
             Get an NFC card and link it to your profile. We plant a tree for
             each card!
          </h3>
          <img
-            class="card"
+            class="card animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce_Card.png"
             alt="card"
          />
          <img
-            class="spruce_img"
+            class="spruce_img animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce.png"
             alt="spruce"
          />
@@ -55,19 +59,35 @@
 }
 .card {
    position: absolute;
-   top: 0;
-   right: 0;
+   top: 10px;
+   right: -10px;
 
    width: 320px;
    height: 203.37px;
    border-radius: 20px;
+   @media (min-height: 300px) {
+      &.animation_fromRight_to_left.element-animation {
+         transform: translate(90%, 0) !important;
+      }
+      &.animation_fromRight_to_left.element-show {
+         transform: translate(0, 0) rotate(20deg) !important;
+      }
 
-   transform: rotate(20deg);
+      @media (min-width: 992px) and (max-width: 1199.98px) {
+         &.animation_fromRight_to_left.element-animation {
+            transform: translate(50%, 0) !important;
+         }
+         &.animation_fromRight_to_left.element-show {
+            transform: translate(0, 0) rotate(20deg) !important;
+         }
+      }
+   }
+   //    transform: rotate(20deg);
 }
 .spruce_img {
    position: absolute;
-   top: 0;
-   right: 0;
+   top: -50px;
+   right: -10px;
 
    width: 190px;
    height: 330px;

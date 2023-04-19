@@ -92,7 +92,7 @@ $size: 200px;
 
 //! Плавная прогрузка Элементов
 
-@media (min-height: 300px) {
+@media (min-height: 400px) {
    //?  element-animation
    .element-animation {
       opacity: 0;
@@ -144,6 +144,12 @@ $size: 200px;
       transform: translate(0, 0) !important;
       transition: 1s !important;
    }
+
+   //    @media (max-width: 767.98px) {
+   //       .animation_fromLeft_to_right.element-animation {
+   //          transform: translate(-10%, 0);
+   //       }
+   //    }
 }
 
 //! Прижимание футера к низу

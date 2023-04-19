@@ -2,7 +2,7 @@
    <section class="nav_wrapper">
       <div class="blur"></div>
       <nav class="container nav">
-         <div class="burger-menu">
+         <div class="burger-menu animation_fromLeft_to_right element-animation">
             <span class="line line-1 white_mode_color"></span>
             <span class="line line-2 white_mode_color"></span>
             <span class="line line-3 white_mode_color"></span>
@@ -10,16 +10,22 @@
 
          <div class="links">
             <img
-               class="hover_visibility"
+               class="hover_visibility animation_fromLeft_to_right element-animation"
                width="45px"
                height="45px"
                src="@/assets/img/Navigation/Logo.png"
                alt="logo"
             />
-            <a href="#" class="desktop_nav_link products_dropdown_link"
+            <a
+               href="#"
+               class="desktop_nav_link products_dropdown_link animation_fromLeft_to_right element-animation"
                >Products</a
             >
-            <a href="#" class="desktop_nav_link">Contact us</a>
+            <a
+               href="#"
+               class="desktop_nav_link animation_fromLeft_to_right element-animation"
+               >Contact us</a
+            >
             <ul class="products_dropdown white_mode_color">
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
@@ -82,11 +88,13 @@
                </li>
             </ul>
          </div>
-         <a class="mobile_logo" href="#">
+         <a class="mobile_logo element-animation" href="#">
             <img src="@/assets/img/Navigation/Title_Logo.png" alt="" />
          </a>
          <div class="buttons">
-            <div class="language_changer">
+            <div
+               class="language_changer animation_fromRight_to_left element-animation"
+            >
                <img
                   class="language show_language hover_shadow"
                   src="@/assets/img/Navigation/English.png"
@@ -110,7 +118,9 @@
                   />
                </div>
             </div>
-            <button class="theme_button dark">
+            <button
+               class="theme_button dark animation_fromRight_to_left element-animation"
+            >
                <div class="dark_icons">
                   <img
                      class="dark_icon unions"
@@ -158,8 +168,16 @@
                </div>
             </button>
             <form class="login_buttons" action="#">
-               <Ubutton class="login"> SignIn </Ubutton>
-               <Ubutton class="sigin"> SignUp </Ubutton>
+               <Ubutton
+                  class="login animation_fromRight_to_left element-animation"
+               >
+                  SignIn
+               </Ubutton>
+               <Ubutton
+                  class="sigin animation_fromRight_to_left element-animation"
+               >
+                  SignUp
+               </Ubutton>
             </form>
          </div>
       </nav>

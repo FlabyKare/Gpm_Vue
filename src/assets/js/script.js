@@ -20,6 +20,7 @@ export default function allScripts() {
 
    let options = {
       threshold: [0.35],
+      rootMargin: "0px 0px -5px 0px", // добавляем отступ внизу элемента на 100 пикселей
    };
    let observer = new IntersectionObserver(onEntry, options);
    let elements = document.querySelectorAll(".element-animation");

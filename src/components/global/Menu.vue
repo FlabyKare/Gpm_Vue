@@ -2,8 +2,8 @@
 <template>
    <div class="menu-wrapper">
       <div class="menu_blur"></div>
-      <ul class="menu-list">
-         <li class="menu_dropDown white_mode_color">
+      <ul class="menu-list white_mode_color">
+         <li class="menu_dropDown white_mode_color menu_li_style">
             <p>GPM Products</p>
             <svg
                width="14"
@@ -16,7 +16,7 @@
             </svg>
          </li>
          <ul class="menu_dropDown_list">
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Link.png"
@@ -26,7 +26,7 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/CPN_Contact.png"
@@ -36,7 +36,7 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Mail.png"
@@ -46,7 +46,7 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Travel.png"
@@ -56,7 +56,7 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Token.png"
@@ -66,7 +66,7 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color">
+            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Dollar.png"
@@ -76,28 +76,70 @@
                </a>
             </li>
          </ul>
-         <li class="contact_us white_mode_color">
+         <li class="contact_us white_mode_color menu_li_style">
             <a href="#">Contact us</a>
          </li>
+
+         <form class="login_buttons buttons minimal_height" action="#">
+            <Ubutton
+               class="login animation_fromLeft_to_right element-animation"
+            >
+               SignIn
+            </Ubutton>
+            <Ubutton
+               class="sigin animation_fromRight_to_left element-animation"
+            >
+               SignUp
+            </Ubutton>
+         </form>
+
+         <ul class="languages minimal_height">
+            <li
+               class="hover_shadow animation_fromLeft_to_right element-animation"
+            >
+               <a href="#"
+                  ><img src="@/assets/img/Navigation/English.png" alt=""
+               /></a>
+            </li>
+            <li class="hover_shadow element-animation">
+               <a href="#"
+                  ><img src="@/assets/img/Navigation/Franch.png" alt=""
+               /></a>
+            </li>
+            <li
+               class="hover_shadow animation_fromRight_to_left element-animation"
+            >
+               <a width="100%" href="#"
+                  ><img
+                     width="100%"
+                     src="@/assets/img/Navigation/Spanish.png"
+                     alt=""
+               /></a>
+            </li>
+         </ul>
       </ul>
 
-      <form class="login_buttons buttons" action="#">
-         <Ubutton class="login"> SignIn </Ubutton>
-         <Ubutton class="sigin"> SignUp </Ubutton>
+      <form class="login_buttons buttons hide_on_little_screen" action="#">
+         <Ubutton class="login animation_fromLeft_to_right element-animation">
+            SignIn
+         </Ubutton>
+         <Ubutton class="sigin animation_fromRight_to_left element-animation">
+            SignUp
+         </Ubutton>
       </form>
 
-      <ul class="languages">
-         <li class="hover_shadow">
+      <ul class="languages hide_on_little_screen">
+         <li class="hover_shadow animation_fromLeft_to_right element-animation">
             <a href="#"
                ><img src="@/assets/img/Navigation/English.png" alt=""
             /></a>
          </li>
-         <li class="hover_shadow">
+         <li class="hover_shadow element-animation">
             <a href="#"
                ><img src="@/assets/img/Navigation/Franch.png" alt=""
             /></a>
          </li>
-         <li class="hover_shadow">
+         <li class="hover_shadow animation_fromRight_to_left element-animation">
             <a width="100%" href="#"
                ><img
                   width="100%"
@@ -109,4 +151,80 @@
    </div>
 </template>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.menu-wrapper {
+   padding-bottom: 25px;
+}
+.menu-list {
+   overflow-y: auto;
+   overflow-x: hidden;
+
+   &::-webkit-scrollbar {
+      //   z-index: 9999 !important;
+      background: #4e4e56;
+      width: 2px;
+   }
+   &::-webkit-scrollbar-thumb {
+      background: #fff;
+      cursor: pointer !important;
+   }
+   &::-webkit-scrollbar-track {
+      //   z-index: 9999 !important;
+      transition: 0.5s;
+   }
+
+   &::-webkit-scrollbar-button {
+      display: none;
+   }
+   &.active {
+      background: transparent !important;
+      &::-webkit-scrollbar {
+         background: #fff !important;
+      }
+      &::-webkit-scrollbar-thumb {
+         background: #4e4e56 !important;
+         cursor: pointer !important;
+      }
+   }
+
+   .menu_li_style {
+      background: rgb(23 21 30 / 70%);
+      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 6px;
+      padding: 15px 20px 15px 25px;
+      &:hover {
+         background: rgba(255, 255, 255, 0.1);
+      }
+      &.active {
+         &:hover {
+            box-shadow: 0px 0px 15px rgba(161, 136, 245, 0.4);
+         }
+      }
+   }
+   .languages {
+      justify-content: center;
+   }
+   li {
+      background: none;
+      box-shadow: none;
+      border-radius: 0;
+      padding: 0;
+   }
+
+   .login_buttons {
+      justify-content: center;
+   }
+}
+//! Comment
+@media (max-height: 444.98px) {
+   .hide_on_little_screen {
+      display: none;
+   }
+}
+
+@media (min-height: 445px) {
+   .minimal_height {
+      display: none;
+   }
+}
+</style>

@@ -1,10 +1,14 @@
 <template>
    <section id="intro" class="intro container">
-      <h1 class="intro_title">
+      <h1 class="intro_title animation_fromLeft_to_right element-animation">
          Experience the Power of <span>Digital</span> Business Profiles!
       </h1>
-      <p class="intro_text">And discover the added perks.</p>
-      <Ubutton class="intro_btn">Get started for free</Ubutton>
+      <p class="intro_text animation_fromLeft_to_right element-animation">
+         And discover the added perks.
+      </p>
+      <Ubutton class="intro_btn animation_fromLeft_to_right element-animation"
+         >Get started for free</Ubutton
+      >
       <img class="employees" src="@/assets/img/Header/Peoples.png" />
    </section>
 </template>

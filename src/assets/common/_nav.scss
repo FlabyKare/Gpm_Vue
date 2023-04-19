@@ -310,20 +310,7 @@ header {
    * {
       transition: all 0.35s;
    }
-   li {
-      background: rgb(23 21 30 / 70%);
-      box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
-      border-radius: 6px;
-      padding: 15px 20px 15px 25px;
-      &:hover {
-         background: rgba(255, 255, 255, 0.1);
-      }
-      &.active {
-         &:hover {
-            box-shadow: 0px 0px 15px rgba(161, 136, 245, 0.4);
-         }
-      }
-   }
+
    .menu_dropDown {
       display: flex;
       justify-content: space-between;
