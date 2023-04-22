@@ -1,6 +1,7 @@
 <template>
    <section class="app_info white_mode_color">
       <div class="box"></div>
+      <div class="box box2"></div>
 
       <span class="white_mode_color"></span>
       <aside class="app_info_wrapper container">
@@ -47,6 +48,21 @@
 <style lang="scss" scoped>
 @import "@/assets/common/defaultSection";
 
+.box {
+   position: absolute !important;
+   top: auto;
+   left: auto;
+   bottom: -85px;
+   right: 0px;
+   filter: blur(130px);
+   z-index: -1 !important;
+}
+.box2 {
+   top: -85px;
+   left: 0px;
+   bottom: auto;
+   right: auto;
+}
 .app_info {
    //    box-shadow: 0px -95px 130px 100px rgb(0, 0, 0);
    margin-top: -20px;

@@ -39,6 +39,11 @@
    background-repeat: no-repeat;
    background-size: 100% 100%;
    overflow: hidden;
+
+   z-index: 2;
+   * {
+      z-index: 2;
+   }
 }
 
 .default_title {

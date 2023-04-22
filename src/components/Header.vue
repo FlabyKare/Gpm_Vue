@@ -28,7 +28,6 @@
    position: absolute;
    top: 0;
    left: 0;
-   transition: 5.5s ease-in-out;
    width: 500px;
    height: 500px;
    border-radius: 50%;

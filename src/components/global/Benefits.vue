@@ -1,7 +1,5 @@
 <template>
    <section class="benefits app_info white_mode_color">
-      <div class="box"></div>
-
       <aside class="medicine app_info_wrapper container">
          <div
             class="slider_images_wrapper desktop medicine_goods animation_fromLeft_to_right element-animation"
@@ -62,6 +60,7 @@
                Get started for free</Ubutton
             >
          </article>
+         <div class="box"></div>
       </aside>
 
       <aside class="hotel app_info_wrapper container">
@@ -79,6 +78,8 @@
                alt=""
             />
          </div>
+         <div class="box box2"></div>
+
          <article>
             <h3
                class="default_title animation_fromRight_to_left element-animation"
@@ -115,8 +116,6 @@
             >
          </article>
       </aside>
-
-      <div class="box box2"></div>
    </section>
 </template>
 
@@ -124,6 +123,32 @@
 
 <style lang="scss" scoped>
 @import "@/assets/common/defaultSection";
+.box {
+   position: absolute;
+   bottom: auto;
+   top: 35px;
+   left: auto;
+   right: 400px;
+   filter: blur(130px);
+   z-index: -1 !important;
+   @media (max-width: 1199.98px) {
+      top: 535px;
+      left: auto;
+      right: 300px;
+   }
+}
+.box2 {
+   position: absolute;
+   bottom: 35px;
+   top: auto;
+   left: 200px;
+   right: auto;
+   filter: blur(130px);
+   z-index: -1 !important;
+   @media (max-width: 1199.98px) {
+      bottom: 235px;
+   }
+}
 .slider_images_wrapper {
    position: relative;
 
@@ -169,10 +194,6 @@
    padding: 110px 0 100px;
 }
 
-.box {
-   right: 0;
-   left: auto;
-}
 .hotel {
    margin-top: 140px;
    flex-direction: row-reverse;

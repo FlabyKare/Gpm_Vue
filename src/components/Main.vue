@@ -2,6 +2,7 @@
    <main>
       <Preview />
       <Benefits />
+      <NFT />
    </main>
 </template>
 

@@ -1,6 +1,7 @@
 <template>
    <section class="preview app_info white_mode_color">
       <div class="box"></div>
+      <div class="box box2"></div>
 
       <aside class="app_info_wrapper container">
          <img
@@ -48,8 +49,19 @@
 @import "@/assets/common/defaultSection";
 
 .box {
-   right: 0;
+   position: absolute !important;
+   top: auto;
    left: auto;
+   bottom: 100px;
+   right: 100px;
+   filter: blur(130px);
+   z-index: -1 !important;
+}
+.box2 {
+   top: -85px;
+   left: 0px;
+   bottom: auto;
+   right: auto;
 }
 .app_info_wrapper {
    flex-direction: row-reverse;

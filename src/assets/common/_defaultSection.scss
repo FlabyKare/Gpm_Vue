@@ -37,10 +37,6 @@
    max-width: 500px;
    hyphens: auto;
 }
-.box {
-   right: 0;
-   left: auto;
-}
 .app_info_wrapper {
    display: flex;
    justify-content: space-evenly;
@@ -54,12 +50,6 @@
 .intro_btn,
 .default_text {
    margin-top: 50px;
-}
-.box2 {
-   left: auto;
-   top: auto;
-   right: 0;
-   bottom: 0;
 }
 img {
    max-width: 515px;

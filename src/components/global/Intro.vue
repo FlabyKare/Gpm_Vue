@@ -10,11 +10,22 @@
          >Get started for free</Ubutton
       >
       <img class="employees" src="@/assets/img/Header/Peoples.png" />
+
+      <div class="box"></div>
    </section>
 </template>
 
 <style lang="scss" scoped>
 @import "@/assets/common/fonts";
+.box {
+   position: absolute !important;
+   top: auto;
+   left: auto;
+
+   bottom: 115px;
+   right: -300px;
+   z-index: -1 !important;
+}
 .intro {
    margin-top: 100px !important;
    height: 700px;
@@ -65,6 +76,9 @@
    }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
+   .box {
+      display: none;
+   }
    #intro {
       height: 485px;
       .intro_title {

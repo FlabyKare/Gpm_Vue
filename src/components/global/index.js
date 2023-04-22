@@ -10,6 +10,7 @@ import AppInfo from "./AppInfo.vue";
 import SpruceSection from "./SpruceSection.vue";
 import Preview from "./Preview.vue";
 import Benefits from "./Benefits.vue";
+import NFT from "./NFT.vue";
 
 const components = [
    { name: "Header", component: Header },
@@ -24,6 +25,7 @@ const components = [
    { name: "SpruceSection", component: SpruceSection },
    { name: "Preview", component: Preview },
    { name: "Benefits", component: Benefits },
+   { name: "NFT", component: NFT },
 ];
 
 export default {
