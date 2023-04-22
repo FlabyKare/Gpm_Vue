@@ -1,0 +1,151 @@
+@import "@/assets/common/fonts";
+
+.app_info {
+   //    box-shadow: 0px -95px 130px 100px rgb(0, 0, 0);
+   margin-top: -20px;
+   padding-top: 140px;
+   background: #221f2c;
+   width: 100%;
+   position: relative;
+   z-index: 1;
+}
+.default_title {
+   font-family: $Poppins;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 50px;
+   color: #ffffff;
+   max-width: 500px;
+   hyphens: auto;
+}
+@mixin default_title {
+   font-family: $Poppins;
+   font-weight: 800;
+   font-size: 40px;
+   line-height: 50px;
+   color: #ffffff;
+   max-width: 500px;
+   hyphens: auto;
+}
+
+.default_text {
+   font-family: $Poppins;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 30px;
+   color: #ffffff;
+   max-width: 500px;
+   hyphens: auto;
+}
+.box {
+   right: 0;
+   left: auto;
+}
+.app_info_wrapper {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 50px;
+   flex-wrap: wrap;
+   * {
+      z-index: 1;
+   }
+}
+
+.intro_btn,
+.default_text {
+   margin-top: 50px;
+}
+.box2 {
+   left: auto;
+   top: auto;
+   right: 0;
+   bottom: 0;
+}
+img {
+   max-width: 515px;
+   height: 495px;
+}
+
+//! Comment
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+   .default_title {
+      font-size: 24px;
+      line-height: 29px;
+   }
+   .default_text {
+      font-size: 14px;
+      line-height: 20px;
+   }
+
+   .default_text {
+      margin: 25px auto 0;
+   }
+   .default_text,
+   .default_title {
+      text-align: center;
+   }
+   article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .intro_btn {
+      margin: 25px auto 0;
+      max-width: fit-content;
+   }
+   .employees_mobile {
+      height: auto !important;
+      width: 100%;
+      display: block;
+   }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+   .default_text,
+   .default_title {
+      text-align: center;
+   }
+}
+@media (max-width: 991.98px) {
+   .desktop {
+      height: auto !important;
+      width: 100%;
+      display: none;
+   }
+   .employees_mobile {
+      height: auto !important;
+      width: 100%;
+      display: block;
+      margin: 10% auto 0;
+   }
+   article {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+   }
+   .intro_btn {
+      margin: 25px auto 0;
+   }
+}
+
+@media (min-width: 992px) {
+   img {
+      height: auto !important;
+      width: 100%;
+   }
+   .employees_mobile {
+      display: none !important;
+   }
+}
+@media (min-width: 576px) and (max-width: 1199.98px) {
+   .default_title,
+   .default_text {
+      width: 100%;
+      max-width: 750px;
+   }
+   img {
+      height: 650px;
+      max-width: 640px !important;
+   }
+}

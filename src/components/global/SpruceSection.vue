@@ -26,6 +26,8 @@
 <script setup></script>
 
 <style lang="scss" scoped>
+@import "@/assets/common/defaultSection";
+
 .spruce {
    margin-top: 125px;
    padding: 75px 20px;
@@ -97,7 +99,7 @@
 
 @media (min-width: 320px) and (max-width: 575.98px) {
    .spruce {
-      padding: 35px 20px;
+      padding: 35px 20px 55px;
       margin-top: 55px;
 
       .spruce_aside {
@@ -111,7 +113,8 @@
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
    .spruce {
-      padding: 35px 20px;
+      padding: 35px 20px 55px;
+
       margin-top: 55px;
       .spruce_aside {
          padding: 30px;
@@ -136,15 +139,14 @@
       }
    }
 }
-@media (min-width: 768px) and (max-width: 991.98px) {
-}
 @media (min-width: 992px) and (max-width: 1199.98px) {
    .spruce_aside {
       padding-left: 40px;
    }
 }
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-}
-@media (min-width: 1400px) {
+@media (min-width: 768px) {
+   .spruce {
+      padding: 75px 20px 95px;
+   }
 }
 </style>

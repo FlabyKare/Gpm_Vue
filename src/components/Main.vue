@@ -1,5 +1,8 @@
 <template>
-   <div></div>
+   <main>
+      <Preview />
+      <Benefits />
+   </main>
 </template>
 
 <script></script>

@@ -1,4 +1,17 @@
 <template>
+   <div class="preloader_wrapper">
+      <div class="circles_wrapper">
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+         <div class="circle"></div>
+      </div>
+   </div>
    <div class="box"></div>
 
    <header class="main_page_header">
@@ -31,17 +44,6 @@
 .nav_wrapper {
    * {
       z-index: 10 !important;
-   }
-}
-
-@media (min-width: 320px) and (max-width: 575.98px) {
-   .default_title {
-      font-size: 24px;
-      line-height: 29px;
-   }
-   .default_text {
-      font-size: 14px;
-      line-height: 20px;
    }
 }
 </style>

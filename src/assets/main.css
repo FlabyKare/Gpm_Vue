@@ -1042,6 +1042,7 @@ body::-webkit-scrollbar-button {
   padding: 5px;
   position: relative;
   z-index: 10;
+  cursor: pointer;
 }
 
 .theme_button.dark {
@@ -1188,6 +1189,7 @@ body::-webkit-scrollbar-button {
   min-width: 128px;
   padding: 13px 15px;
   outline: none !important;
+  cursor: pointer;
 }
 .gradient_btn:active {
   -webkit-transform: scale(0.95);
@@ -1202,28 +1204,4 @@ body::-webkit-scrollbar-button {
 .intro_btn {
   font-size: 20px;
   line-height: 30px;
-}
-
-.default_title {
-  font-family: "Manrope", sans-serif;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 50px;
-  color: #ffffff;
-  max-width: 500px;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
-}
-
-.default_text {
-  font-family: "Manrope", sans-serif;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 30px;
-  color: #ffffff;
-  max-width: 500px;
-  -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
 }

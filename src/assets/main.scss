@@ -247,6 +247,7 @@ $size: 200px;
    padding: 5px;
    position: relative;
    z-index: 10;
+   cursor: pointer;
 }
 .theme_button.dark {
    .white_icons {
@@ -397,7 +398,7 @@ $size: 200px;
    min-width: 128px;
    padding: 13px 15px;
    outline: none !important;
-
+   cursor: pointer;
    &:active {
       transform: scale(0.95);
    }
@@ -412,23 +413,4 @@ $size: 200px;
 .intro_btn {
    font-size: 20px;
    line-height: 30px;
-}
-
-.default_title {
-   font-family: $Poppins;
-   font-weight: 800;
-   font-size: 40px;
-   line-height: 50px;
-   color: #ffffff;
-   max-width: 500px;
-   hyphens: auto;
-}
-.default_text {
-   font-family: $Poppins;
-   font-weight: 500;
-   font-size: 18px;
-   line-height: 30px;
-   color: #ffffff;
-   max-width: 500px;
-   hyphens: auto;
 }
