@@ -3,6 +3,8 @@
       <Preview />
       <Benefits />
       <NFT />
+      <Partner />
+      <Roadmap />
    </main>
 </template>
 

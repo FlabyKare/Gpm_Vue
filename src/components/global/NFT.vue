@@ -30,7 +30,7 @@
                on the potential of NFTs!
             </p>
             <div
-               class="slider_images_wrapper employees_mobile nft_image_item element-animation"
+               class="slider_images_wrapper employees_mobile nft_image_item animation_fromRight_to_left element-animation"
             >
                <img
                   class="slider_images_wrapper_item nft_image"
@@ -76,14 +76,6 @@
    .slider_images_wrapper_item {
       height: 230px !important;
       width: 360px !important;
-      &.showing {
-         position: absolute;
-         top: 50%;
-         left: 50%;
-         transform: rotate(-20deg) translate(-35%, -100%);
-         z-index: 0;
-         //  transition: 0.5s;
-      }
    }
 }
 
@@ -115,6 +107,17 @@
    margin: 0 auto 50px;
    max-width: 660px;
    text-align: center;
+}
+
+@media (min-width: 576px) {
+   .slider_images_wrapper_item.showing {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: rotate(-20deg) translate(-35%, -100%);
+      z-index: 0;
+      //  transition: 0.5s;
+   }
 }
 @media (max-width: 575.98px) {
    .mobile_none {

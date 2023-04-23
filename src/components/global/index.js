@@ -11,6 +11,8 @@ import SpruceSection from "./SpruceSection.vue";
 import Preview from "./Preview.vue";
 import Benefits from "./Benefits.vue";
 import NFT from "./NFT.vue";
+import Partner from "./Partner.vue";
+import Roadmap from "./Roadmap.vue";
 
 const components = [
    { name: "Header", component: Header },
@@ -26,6 +28,8 @@ const components = [
    { name: "Preview", component: Preview },
    { name: "Benefits", component: Benefits },
    { name: "NFT", component: NFT },
+   { name: "Partner", component: Partner },
+   { name: "Roadmap", component: Roadmap },
 ];
 
 export default {
