@@ -23,7 +23,7 @@
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
          >
-            <span class="orange">Q1</span>
+            <span class="orange">Q2</span>
             <p class="white_mode_color">KYC integration</p>
             <p class="white_mode_color">KYC integration</p>
          </li>
@@ -31,7 +31,7 @@
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
          >
-            <span class="purple">Q1</span>
+            <span class="purple">Q3</span>
             <p class="white_mode_color">KYC integration</p>
             <p class="white_mode_color">KYC integration</p>
          </li>
@@ -39,7 +39,7 @@
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
          >
-            <span class="yellow">Q1</span>
+            <span class="yellow">Q4</span>
             <p class="white_mode_color">KYC integration</p>
             <p class="white_mode_color">KYC integration</p>
          </li>
@@ -47,7 +47,7 @@
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
          >
-            <span class="blue">Q1</span>
+            <span class="blue">Q5</span>
             <p class="white_mode_color">KYC integration</p>
             <p class="white_mode_color">KYC integration</p>
          </li>
@@ -59,6 +59,7 @@
 
 <style lang="scss" scoped>
 @import "@/assets/common/fonts";
+
 .white_mode_color {
    background: transparent !important;
    color: #fff !important;
@@ -71,9 +72,13 @@
    display: none;
 }
 .roadmap {
-   overflow: hidden;
+   //    overflow: hidden;
    position: relative;
-   padding-bottom: 100px;
+   padding-bottom: 200px;
+   * {
+      z-index: 3;
+      position: inherit;
+   }
 }
 .desktop {
    width: 105%;
@@ -175,7 +180,7 @@
    .roadmap {
       display: flex;
       justify-content: end;
-      padding: 0 20px;
+      padding: 0 20px 150px;
    }
    .desktop {
       display: none;

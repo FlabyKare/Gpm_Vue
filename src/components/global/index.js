@@ -1,5 +1,6 @@
 import Header from "../Header.vue";
 import Main from "../Main.vue";
+import Footer from "../Footer.vue";
 
 import Ubutton from "./Ubutton.vue";
 
@@ -13,10 +14,13 @@ import Benefits from "./Benefits.vue";
 import NFT from "./NFT.vue";
 import Partner from "./Partner.vue";
 import Roadmap from "./Roadmap.vue";
+import Accordion from "./Accordion.vue";
+import Form from "./Form.vue";
 
 const components = [
    { name: "Header", component: Header },
    { name: "Main", component: Main },
+   { name: "Footer", component: Footer },
 
    { name: "Ubutton", component: Ubutton },
 
@@ -30,6 +34,8 @@ const components = [
    { name: "NFT", component: NFT },
    { name: "Partner", component: Partner },
    { name: "Roadmap", component: Roadmap },
+   { name: "Accordion", component: Accordion },
+   { name: "Form", component: Form },
 ];
 
 export default {

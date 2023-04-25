@@ -944,7 +944,7 @@ body::-webkit-scrollbar-button {
       -ms-flex-direction: column;
           flex-direction: column;
   min-height: 100vh;
-  overflow-x: hidden;
+  overflow: hidden;
   position: relative;
 }
 .body_content header {
@@ -1173,6 +1173,9 @@ body::-webkit-scrollbar-button {
 }
 .white_mode_color.active .gradient_btn:hover * {
   color: #a67afd !important;
+}
+.white_mode_color.active .box {
+  z-index: 1 !important;
 }
 
 .gradient_btn {

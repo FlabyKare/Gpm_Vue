@@ -119,23 +119,6 @@ export default function allScripts() {
 
    //    setInterval(randomize, 1000);
 
-   //    let imagesWrapperItem = document.querySelectorAll(
-   //       ".slider_images_wrapper_item"
-   //    );
-
-   //    function resetClassesForImages() {
-   //       imagesWrapperItem.forEach((item) => {
-   //          item.classList.remove("showing");
-   //       });
-   //    }
-
-   //    imagesWrapperItem.forEach((item) => {
-   //       item.addEventListener("click", () => {
-   //          resetClassesForImages();
-   //          item.classList.add("showing");
-   //       });
-   //    });
-
    let imagesWrapperItem = document.querySelectorAll(
       ".slider_images_wrapper_item"
    );

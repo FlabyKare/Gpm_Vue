@@ -67,7 +67,6 @@
    //    box-shadow: 0px -95px 130px 100px rgb(0, 0, 0);
    margin-top: -20px;
    padding-top: 140px;
-   background: #221f2c;
    width: 100%;
    position: relative;
    z-index: 1;

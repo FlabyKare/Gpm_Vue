@@ -4,7 +4,6 @@ body {
    background: #221f2c;
    color: #fff;
    scroll-behavior: smooth;
-
    &::-webkit-scrollbar {
       z-index: 9999 !important;
       background: #0a1318 !important;
@@ -157,8 +156,9 @@ $size: 200px;
    display: flex;
    flex-direction: column;
    min-height: 100vh;
-   overflow-x: hidden; //? Для Анимаций
+   overflow: hidden; //? Для Анимаций
    position: relative;
+
    header {
       width: 100%;
    }
@@ -375,6 +375,9 @@ $size: 200px;
             color: #a67afd !important;
          }
       }
+   }
+   .box {
+      z-index: 1 !important;
    }
 }
 

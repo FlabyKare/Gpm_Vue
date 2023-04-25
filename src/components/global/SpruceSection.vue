@@ -38,7 +38,7 @@
    background-position: center;
    background-repeat: no-repeat;
    background-size: 100% 100%;
-   overflow: hidden;
+   //    overflow: hidden;
 
    z-index: 2;
    * {

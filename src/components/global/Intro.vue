@@ -76,6 +76,9 @@
    }
 }
 @media (min-width: 320px) and (max-width: 575.98px) {
+   .intro {
+      padding-right: 10px !important;
+   }
    .box {
       display: none;
    }
@@ -123,7 +126,7 @@
 @media (max-width: 1299.98px) {
    .intro {
       overflow: hidden;
-      padding-right: 0 !important;
+      padding-right: 0;
       //   margin: 0 auto;
    }
 }

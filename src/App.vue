@@ -10,4 +10,5 @@ onMounted(() => {
 <template>
    <Header />
    <Main />
+   <Footer />
 </template>

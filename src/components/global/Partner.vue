@@ -11,7 +11,7 @@
       </p>
       <aside class="container">
          <img
-            class="partner_image animation_fromRight_to_left element-animation"
+            class="partner_image animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Partner_Preview.png"
             alt=""
          />
@@ -32,18 +32,25 @@
 @import "@/assets/common/defaultSection";
 .partner_wrapper {
    padding: 95px 20px 100px;
+   position: relative;
+   * {
+      z-index: 2;
+      position: inherit;
+   }
 }
 .partner_image {
    width: 590px;
    height: 285px;
    margin: 40px auto 60px;
    display: block;
-   transition: border 0.25s !important;
-   border: 2px solid transparent;
+   border: 2px solid rgba(255, 0, 0, 0);
+
+   transition-property: border, transform;
+   transition-duration: 0.25s, 0.5s;
    border-radius: 15px;
 
    &:hover {
-      border: 2px solid red;
+      border: 2px solid rgba(255, 0, 0, 1);
    }
    @media (max-width: 700px) {
       width: 100%;
@@ -51,12 +58,12 @@
    }
 }
 .box {
-   position: absolute;
+   position: absolute !important;
    bottom: auto;
-   top: 235px;
-   left: auto;
-   right: 400px;
-   filter: blur(130px);
+   top: 100px;
+   left: 100px;
+   right: auto;
+   filter: blur(200px);
    z-index: -1 !important;
    @media (max-width: 1199.98px) {
       left: auto;
@@ -79,7 +86,5 @@
 
    max-width: 840px;
    text-align: center;
-}
-@media (max-width: 575.98px) {
 }
 </style>

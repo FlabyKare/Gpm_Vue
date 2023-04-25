@@ -36,7 +36,7 @@
                loyalty levels and enjoy the rewards of being a valued customer.
             </p>
             <div
-               class="slider_images_wrapper employees_mobile medicine_goods element-animation"
+               class="slider_images_wrapper employees_mobile medicine_goods animation_fromLeft_to_right element-animation"
             >
                <img
                   class="slider_images_wrapper_item medicine_images"
@@ -96,7 +96,7 @@
                the most of your vacation with GPM.Travel!
             </p>
             <div
-               class="slider_images_wrapper employees_mobile hotel_slider medicine_goods element-animation"
+               class="slider_images_wrapper employees_mobile hotel_slider medicine_goods animation_fromLeft_to_right element-animation"
             >
                <img
                   class="slider_images_wrapper_item hotel_images"

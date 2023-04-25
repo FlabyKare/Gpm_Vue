@@ -83,7 +83,7 @@
    margin-top: 0;
    padding: 110px 0 100px;
    position: relative;
-   overflow: hidden;
+   //    overflow: hidden;
 }
 
 .box {

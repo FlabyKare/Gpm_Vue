@@ -5,9 +5,16 @@
       <NFT />
       <Partner />
       <Roadmap />
+      <Accordion />
    </main>
 </template>
 
-<script></script>
+<script>
+import Accordion from "./global/Accordion.vue";
+</script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+main {
+   position: relative;
+}
+</style>
