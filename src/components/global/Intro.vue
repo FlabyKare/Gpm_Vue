@@ -19,7 +19,7 @@
       >
       <img
          class="employees"
-         src="@/assets/img/Header/Peoples.png"
+         src="@/assets/img/Header/Peoples.webp"
          loading="lazy"
       />
 

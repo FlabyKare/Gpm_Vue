@@ -93,61 +93,42 @@ $size: 200px;
 }
 
 //! Плавная прогрузка Элементов
+$transition-time: 1.5s !important;
+
 @media (min-height: 400px) {
-   //? element-animation
    .element-animation {
       opacity: 0;
       transform: scale(0.9);
+
+      &.animation_fromLeft_to_right {
+         transform: translateX(-50%);
+      }
+
+      &.animation_fromRight_to_left {
+         transform: translateX(50%);
+      }
+
+      &.animation_fromBottom_to_up {
+         transform: translateY(10%);
+      }
+
+      &.animation_fromUP_to_bottom {
+         transform: translateY(-20%);
+      }
    }
 
    .element-show {
       opacity: 1;
       transform: scale(1);
-      transition: 1.5s !important;
-   }
+      transition: $transition-time;
 
-   //* Из левой части плавно появляется
-   //? animation_fromLeft_to_right element-animation
-   .animation_fromLeft_to_right.element-animation {
-      transform: translateX(-50%);
-   }
-
-   .animation_fromLeft_to_right.element-show {
-      transform: none !important;
-      transition: 1.5s !important;
-   }
-
-   //* Из правой части плавно появляется
-   //? animation_fromRight_to_left element-animation
-   .animation_fromRight_to_left.element-animation {
-      transform: translateX(50%);
-   }
-
-   .animation_fromRight_to_left.element-show {
-      transform: none !important;
-      transition: 1.5s !important;
-   }
-
-   //* Из нижней части плавно появляется
-   //? animation_fromBottom_to_up element-animation
-   .animation_fromBottom_to_up.element-animation {
-      transform: translateY(10%);
-   }
-
-   .animation_fromBottom_to_up.element-show {
-      transform: none !important;
-      transition: 1.5s !important;
-   }
-
-   //* Из верхней части плавно появляется
-   //? animation_fromUP_to_bottom element-animation
-   .animation_fromUP_to_bottom.element-animation {
-      transform: translateY(-20%);
-   }
-
-   .animation_fromUP_to_bottom.element-show {
-      transform: none !important;
-      transition: 1.5s !important;
+      &.animation_fromLeft_to_right,
+      &.animation_fromRight_to_left,
+      &.animation_fromBottom_to_up,
+      &.animation_fromUP_to_bottom {
+         transform: none !important;
+         transition: $transition-time;
+      }
    }
 }
 

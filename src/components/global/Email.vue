@@ -16,13 +16,13 @@
 
                <img
                   class="white_line"
-                  src="@/assets/img/Main/Email_WhiteLine.png"
+                  src="@/assets/img/Main/Email_WhiteLine.webp"
                   alt=""
                   loading="lazy"
                />
                <img
                   class="black_line"
-                  src="@/assets/img/Main/Email_BlaсkLine.png"
+                  src="@/assets/img/Main/Email_BlaсkLine.webp"
                   alt=""
                   loading="lazy"
                />
@@ -54,7 +54,7 @@
 @import "@/assets/common/fonts";
 @import "@/assets/common/defaultSection";
 .email {
-   background: url("@/assets/img/Main/Email_Bg.png");
+   background: url("@/assets/img/Main/Email_Bg.webp");
    background-repeat: no-repeat;
    background-size: 100% 100%;
    padding: 45px 0;

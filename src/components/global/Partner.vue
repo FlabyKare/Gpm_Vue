@@ -18,7 +18,7 @@
       <aside class="container" loading="lazy">
          <img
             class="partner_image animation_fromLeft_to_right element-animation"
-            src="@/assets/img/Main/Partner_Preview.png"
+            src="@/assets/img/Main/Partner_Preview.webp"
             alt=""
             loading="lazy"
          />

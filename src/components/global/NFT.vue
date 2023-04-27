@@ -14,13 +14,13 @@
          >
             <img
                class="slider_images_wrapper_item nft_image"
-               src="@/assets/img/Main/Benefits/Nft_Picture.png"
+               src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                alt=""
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item nft_image"
-               src="@/assets/img/Main/Benefits/Nft_Picture.png"
+               src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                alt=""
                loading="lazy"
             />
@@ -42,13 +42,13 @@
             >
                <img
                   class="slider_images_wrapper_item nft_image"
-                  src="@/assets/img/Main/Benefits/Nft_Picture.png"
+                  src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                   alt=""
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item nft_image mobile_none"
-                  src="@/assets/img/Main/Benefits/Nft_Picture.png"
+                  src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                   alt=""
                   loading="lazy"
                />

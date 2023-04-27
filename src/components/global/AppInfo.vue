@@ -7,7 +7,7 @@
       <aside class="app_info_wrapper container" loading="lazy">
          <img
             class="desktop employees animation_fromLeft_to_right element-animation"
-            src="@/assets/img/Header/employees.png"
+            src="@/assets/img/Header/employees.webp"
             alt=""
             loading="lazy"
          />
@@ -31,7 +31,7 @@
             </p>
             <img
                class="employees_mobile animation_fromRight_to_left element-animation"
-               src="@/assets/img/Header/employees.png"
+               src="@/assets/img/Header/employees.webp"
                alt=""
                loading="lazy"
             />

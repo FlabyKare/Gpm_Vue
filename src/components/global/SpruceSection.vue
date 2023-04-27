@@ -13,13 +13,13 @@
          </h3>
          <img
             class="card animation_fromRight_to_left element-animation"
-            src="@/assets/img/Header/Spruce_Card.png"
+            src="@/assets/img/Header/Spruce_Card.webp"
             alt="card"
             loading="lazy"
          />
          <img
             class="spruce_img animation_fromRight_to_left element-animation"
-            src="@/assets/img/Header/Spruce.png"
+            src="@/assets/img/Header/Spruce.webp"
             alt="spruce"
             loading="lazy"
          />
@@ -38,7 +38,7 @@
 
    width: 100%;
 
-   background: url("@/assets/img/Header/Spruce_bg.png");
+   background: url("@/assets/img/Header/Spruce_bg.webp");
    background-position: center;
    background-repeat: no-repeat;
    background-size: 100% 100%;

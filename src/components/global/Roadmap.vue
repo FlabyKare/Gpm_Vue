@@ -2,13 +2,13 @@
    <section class="roadmap" loading="lazy">
       <img
          class="desktop white_mode_color animation_fromLeft_to_right element-animation"
-         src="@/assets/img/Main/Roadmap_Image.png"
+         src="@/assets/img/Main/Roadmap_Image.webp"
          alt=""
          loading="lazy"
       />
       <img
          class="mobile"
-         src="@/assets/img/Main/Mobile_Roadmap_Image.png"
+         src="@/assets/img/Main/Mobile_Roadmap_Image.webp"
          alt=""
          loading="lazy"
       />

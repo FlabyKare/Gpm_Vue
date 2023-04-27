@@ -890,6 +890,22 @@ body::-webkit-scrollbar-button {
     -webkit-transform: scale(0.9);
             transform: scale(0.9);
   }
+  .element-animation.animation_fromLeft_to_right {
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .element-animation.animation_fromRight_to_left {
+    -webkit-transform: translateX(50%);
+            transform: translateX(50%);
+  }
+  .element-animation.animation_fromBottom_to_up {
+    -webkit-transform: translateY(10%);
+            transform: translateY(10%);
+  }
+  .element-animation.animation_fromUP_to_bottom {
+    -webkit-transform: translateY(-20%);
+            transform: translateY(-20%);
+  }
   .element-show {
     opacity: 1;
     -webkit-transform: scale(1);
@@ -897,41 +913,7 @@ body::-webkit-scrollbar-button {
     -webkit-transition: 1.5s !important;
     transition: 1.5s !important;
   }
-  .animation_fromLeft_to_right.element-animation {
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-  }
-  .animation_fromLeft_to_right.element-show {
-    -webkit-transform: none !important;
-            transform: none !important;
-    -webkit-transition: 1.5s !important;
-    transition: 1.5s !important;
-  }
-  .animation_fromRight_to_left.element-animation {
-    -webkit-transform: translateX(50%);
-            transform: translateX(50%);
-  }
-  .animation_fromRight_to_left.element-show {
-    -webkit-transform: none !important;
-            transform: none !important;
-    -webkit-transition: 1.5s !important;
-    transition: 1.5s !important;
-  }
-  .animation_fromBottom_to_up.element-animation {
-    -webkit-transform: translateY(10%);
-            transform: translateY(10%);
-  }
-  .animation_fromBottom_to_up.element-show {
-    -webkit-transform: none !important;
-            transform: none !important;
-    -webkit-transition: 1.5s !important;
-    transition: 1.5s !important;
-  }
-  .animation_fromUP_to_bottom.element-animation {
-    -webkit-transform: translateY(-20%);
-            transform: translateY(-20%);
-  }
-  .animation_fromUP_to_bottom.element-show {
+  .element-show.animation_fromLeft_to_right, .element-show.animation_fromRight_to_left, .element-show.animation_fromBottom_to_up, .element-show.animation_fromUP_to_bottom {
     -webkit-transform: none !important;
             transform: none !important;
     -webkit-transition: 1.5s !important;

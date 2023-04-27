@@ -7,19 +7,19 @@
          >
             <img
                class="slider_images_wrapper_item medicine_images"
-               src="@/assets/img/Main/Benefits/1.png"
+               src="@/assets/img/Main/Benefits/1.webp"
                alt=""
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item medicine_images"
-               src="@/assets/img/Main/Benefits/2.png"
+               src="@/assets/img/Main/Benefits/2.webp"
                alt=""
                loading="lazy"
             />
             <img
                class="slider_images_wrapper_item third_image medicine_images"
-               src="@/assets/img/Main/Benefits/3.png"
+               src="@/assets/img/Main/Benefits/3.webp"
                alt=""
                loading="lazy"
             />
@@ -47,19 +47,19 @@
             >
                <img
                   class="slider_images_wrapper_item medicine_images"
-                  src="@/assets/img/Main/Benefits/1.png"
+                  src="@/assets/img/Main/Benefits/1.webp"
                   alt=""
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item medicine_images"
-                  src="@/assets/img/Main/Benefits/2.png"
+                  src="@/assets/img/Main/Benefits/2.webp"
                   alt=""
                   loading="lazy"
                />
                <img
                   class="slider_images_wrapper_item third_image medicine_images"
-                  src="@/assets/img/Main/Benefits/3.png"
+                  src="@/assets/img/Main/Benefits/3.webp"
                   alt=""
                   loading="lazy"
                />
@@ -81,13 +81,13 @@
          >
             <img
                class="slider_images_wrapper_item hotel_images"
-               src="@/assets/img/Main/Benefits/2_hotel.png"
+               src="@/assets/img/Main/Benefits/2_hotel.webp"
                alt=""
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item hotel_images"
-               src="@/assets/img/Main/Benefits/1_hotel.png"
+               src="@/assets/img/Main/Benefits/1_hotel.webp"
                alt=""
                loading="lazy"
             />
@@ -117,13 +117,13 @@
             >
                <img
                   class="slider_images_wrapper_item hotel_images"
-                  src="@/assets/img/Main/Benefits/2_hotel.png"
+                  src="@/assets/img/Main/Benefits/2_hotel.webp"
                   alt=""
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item hotel_images"
-                  src="@/assets/img/Main/Benefits/1_hotel.png"
+                  src="@/assets/img/Main/Benefits/1_hotel.webp"
                   alt=""
                   loading="lazy"
                />
