@@ -1,19 +1,22 @@
 <template>
-   <section class="roadmap">
+   <section class="roadmap" loading="lazy">
       <img
          class="desktop white_mode_color animation_fromLeft_to_right element-animation"
          src="@/assets/img/Main/Roadmap_Image.png"
          alt=""
+         loading="lazy"
       />
       <img
          class="mobile"
          src="@/assets/img/Main/Mobile_Roadmap_Image.png"
          alt=""
+         loading="lazy"
       />
 
-      <ul class="roadmap_list container">
+      <ul class="roadmap_list container" loading="lazy">
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
+            loading="lazy"
          >
             <span class="green">Q1</span>
             <p class="white_mode_color">KYC integration</p>
@@ -22,6 +25,7 @@
 
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
+            loading="lazy"
          >
             <span class="orange">Q2</span>
             <p class="white_mode_color">KYC integration</p>
@@ -30,6 +34,7 @@
 
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
+            loading="lazy"
          >
             <span class="purple">Q3</span>
             <p class="white_mode_color">KYC integration</p>
@@ -38,6 +43,7 @@
 
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
+            loading="lazy"
          >
             <span class="yellow">Q4</span>
             <p class="white_mode_color">KYC integration</p>
@@ -46,6 +52,7 @@
 
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
+            loading="lazy"
          >
             <span class="blue">Q5</span>
             <p class="white_mode_color">KYC integration</p>

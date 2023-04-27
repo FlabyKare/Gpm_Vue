@@ -1,28 +1,36 @@
 <template>
-   <section class="partner_wrapper white_mode_color">
-      <div class="box"></div>
-      <h3 class="default_title animation_fromRight_to_left element-animation">
+   <section class="partner_wrapper white_mode_color" loading="lazy">
+      <div class="box" loading="lazy"></div>
+      <h3
+         class="default_title animation_fromRight_to_left element-animation"
+         loading="lazy"
+      >
          Become a reseller and start earning now.
       </h3>
-      <p class="default_text animation_fromRight_to_left element-animation">
+      <p
+         class="default_text animation_fromRight_to_left element-animation"
+         loading="lazy"
+      >
          Become a GPM.Link reseller, create your own personalized page in just a
          few clicks and start earning up to 65% of your affiliate subscriptions
          and 35% on affiliate product purchases.
       </p>
-      <aside class="container">
+      <aside class="container" loading="lazy">
          <img
             class="partner_image animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Partner_Preview.png"
             alt=""
+            loading="lazy"
          />
          <Ubutton
             class="intro_btn animation_fromLeft_to_right element-animation"
+            loading="lazy"
          >
             Get started for free</Ubutton
          >
       </aside>
 
-      <div class="box box2"></div>
+      <div class="box box2" loading="lazy"></div>
    </section>
 </template>
 

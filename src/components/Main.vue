@@ -1,5 +1,5 @@
 <template>
-   <main>
+   <main loading="lazy">
       <Preview />
       <Benefits />
       <NFT />

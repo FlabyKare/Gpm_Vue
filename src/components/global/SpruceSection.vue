@@ -1,10 +1,12 @@
 <template>
-   <section class="spruce">
+   <section class="spruce" loading="lazy">
       <aside
          class="spruce_aside container white_mode_color animation_fromBottom_to_up element-animation"
+         loading="lazy"
       >
          <h3
             class="default_title animation_fromLeft_to_right element-animation"
+            loading="lazy"
          >
             Get an NFC card and link it to your profile. We plant a tree for
             each card!
@@ -13,11 +15,13 @@
             class="card animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce_Card.png"
             alt="card"
+            loading="lazy"
          />
          <img
             class="spruce_img animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce.png"
             alt="spruce"
+            loading="lazy"
          />
       </aside>
    </section>

@@ -1,6 +1,7 @@
 <template>
-   <footer>
+   <footer loading="lazy">
       <Form />
+      <Email />
    </footer>
 </template>
 

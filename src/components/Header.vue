@@ -1,20 +1,20 @@
 <template>
-   <div class="preloader_wrapper">
-      <div class="circles_wrapper">
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
-         <div class="circle"></div>
+   <div class="preloader_wrapper" loading="lazy">
+      <div class="circles_wrapper" loading="lazy">
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
+         <div class="circle" loading="lazy"></div>
       </div>
    </div>
-   <div class="box"></div>
+   <div class="box" loading="lazy"></div>
 
-   <header class="main_page_header">
+   <header class="main_page_header" loading="lazy">
       <Menu />
       <Navigation />
       <Intro />

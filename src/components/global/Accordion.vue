@@ -1,5 +1,5 @@
 <template>
-   <ul class="accordion-list container">
+   <ul class="accordion-list container" loading="lazy">
       <li
          v-for="(item, index) in items"
          :key="index"
@@ -7,9 +7,13 @@
          :class="{
             active: item.active,
          }"
+         loading="lazy"
       >
-         <div class="accordion-list-title">
-            <h2 class="question animation_fromLeft_to_right element-animation">
+         <div class="accordion-list-title" loading="lazy">
+            <h2
+               class="question animation_fromLeft_to_right element-animation"
+               loading="lazy"
+            >
                {{ item.question }}
             </h2>
             <svg
@@ -19,6 +23,7 @@
                viewBox="0 0 18 17"
                fill="none"
                xmlns="http://www.w3.org/2000/svg"
+               loading="lazy"
             >
                <path
                   class="path white_mode_color"
@@ -27,23 +32,25 @@
                />
             </svg>
          </div>
-         <p class="answer" :class="{ hidden: !item.active }">
+         <p class="answer" :class="{ hidden: !item.active }" loading="lazy">
             {{ item.answer }}
          </p>
          <img
             class="animation_fromRight_to_left element-animation whiteLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline.png"
             alt=""
+            loading="lazy"
          />
          <img
             class="animation_fromLeft_to_right element-animation blackLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline_Black.png"
             alt=""
+            loading="lazy"
          />
       </li>
-      <div class="box box2"></div>
-      <div class="box box3"></div>
-      <div class="box box4"></div>
+      <div class="box box2" loading="lazy"></div>
+      <div class="box box3" loading="lazy"></div>
+      <div class="box box4" loading="lazy"></div>
    </ul>
 </template>
 <script>

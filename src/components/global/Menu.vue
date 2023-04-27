@@ -1,9 +1,12 @@
 <script setup></script>
 <template>
-   <div class="menu-wrapper">
-      <div class="menu_blur"></div>
-      <ul class="menu-list white_mode_color">
-         <li class="menu_dropDown white_mode_color menu_li_style">
+   <div class="menu-wrapper" loading="lazy">
+      <div class="menu_blur" loading="lazy"></div>
+      <ul class="menu-list white_mode_color" loading="lazy">
+         <li
+            class="menu_dropDown white_mode_color menu_li_style"
+            loading="lazy"
+         >
             <p>GPM Products</p>
             <svg
                width="14"
@@ -15,8 +18,11 @@
                <path d="M1 8L7 2L13 8" stroke="white" stroke-width="2" />
             </svg>
          </li>
-         <ul class="menu_dropDown_list">
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+         <ul class="menu_dropDown_list" loading="lazy">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Link.png"
@@ -26,7 +32,10 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/CPN_Contact.png"
@@ -36,7 +45,10 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Mail.png"
@@ -46,7 +58,10 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Travel.png"
@@ -56,7 +71,10 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Token.png"
@@ -66,7 +84,10 @@
                </a>
             </li>
 
-            <li class="menu_dropDown_list_item white_mode_color menu_li_style">
+            <li
+               class="menu_dropDown_list_item white_mode_color menu_li_style"
+               loading="lazy"
+            >
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Dollar.png"
@@ -76,75 +97,113 @@
                </a>
             </li>
          </ul>
-         <li class="contact_us white_mode_color menu_li_style">
-            <a href="#">Contact us</a>
+         <li class="contact_us white_mode_color menu_li_style" loading="lazy">
+            <a href="#" loading="lazy">Contact us</a>
          </li>
 
-         <form class="login_buttons buttons minimal_height" action="#">
+         <form
+            class="login_buttons buttons minimal_height"
+            action="#"
+            loading="lazy"
+         >
             <Ubutton
                class="login animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                SignIn
             </Ubutton>
             <Ubutton
                class="sigin animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                SignUp
             </Ubutton>
          </form>
 
-         <ul class="languages minimal_height">
+         <ul class="languages minimal_height" loading="lazy">
             <li
                class="hover_shadow animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                <a href="#"
-                  ><img src="@/assets/img/Navigation/English.png" alt=""
+                  ><img
+                     src="@/assets/img/Navigation/English.png"
+                     alt=""
+                     loading="lazy"
                /></a>
             </li>
             <li class="hover_shadow element-animation">
                <a href="#"
-                  ><img src="@/assets/img/Navigation/Franch.png" alt=""
+                  ><img
+                     src="@/assets/img/Navigation/Franch.png"
+                     alt=""
+                     loading="lazy"
                /></a>
             </li>
             <li
                class="hover_shadow animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
-               <a width="100%" href="#"
+               <a width="100%" href="#" loading="lazy"
                   ><img
                      width="100%"
                      src="@/assets/img/Navigation/Spanish.png"
                      alt=""
+                     loading="lazy"
                /></a>
             </li>
          </ul>
       </ul>
 
-      <form class="login_buttons buttons hide_on_little_screen" action="#">
-         <Ubutton class="login animation_fromLeft_to_right element-animation">
+      <form
+         class="login_buttons buttons hide_on_little_screen"
+         action="#"
+         loading="lazy"
+      >
+         <Ubutton
+            class="login animation_fromLeft_to_right element-animation"
+            loading="lazy"
+         >
             SignIn
          </Ubutton>
-         <Ubutton class="sigin animation_fromRight_to_left element-animation">
+         <Ubutton
+            class="sigin animation_fromRight_to_left element-animation"
+            loading="lazy"
+         >
             SignUp
          </Ubutton>
       </form>
 
-      <ul class="languages hide_on_little_screen">
-         <li class="hover_shadow animation_fromLeft_to_right element-animation">
-            <a href="#"
-               ><img src="@/assets/img/Navigation/English.png" alt=""
+      <ul class="languages hide_on_little_screen" loading="lazy">
+         <li
+            class="hover_shadow animation_fromLeft_to_right element-animation"
+            loading="lazy"
+         >
+            <a href="#" loading="lazy"
+               ><img
+                  src="@/assets/img/Navigation/English.png"
+                  alt=""
+                  loading="lazy"
             /></a>
          </li>
-         <li class="hover_shadow element-animation">
-            <a href="#"
-               ><img src="@/assets/img/Navigation/Franch.png" alt=""
+         <li class="hover_shadow element-animation" loading="lazy">
+            <a href="#" loading="lazy"
+               ><img
+                  src="@/assets/img/Navigation/Franch.png"
+                  alt=""
+                  loading="lazy"
             /></a>
          </li>
-         <li class="hover_shadow animation_fromRight_to_left element-animation">
-            <a width="100%" href="#"
+         <li
+            class="hover_shadow animation_fromRight_to_left element-animation"
+            loading="lazy"
+         >
+            <a width="100%" href="#" loading="lazy"
                ><img
                   width="100%"
                   src="@/assets/img/Navigation/Spanish.png"
                   alt=""
+                  loading="lazy"
             /></a>
          </li>
       </ul>

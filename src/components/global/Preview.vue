@@ -1,9 +1,9 @@
 <template>
-   <section class="preview app_info white_mode_color">
-      <div class="box"></div>
-      <div class="box box2"></div>
+   <section class="preview app_info white_mode_color" loading="lazy">
+      <div class="box" loading="lazy"></div>
+      <div class="box box2" loading="lazy"></div>
 
-      <aside class="app_info_wrapper container">
+      <aside class="app_info_wrapper container" loading="lazy">
          <img
             class="desktop employees animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Program_Preview.png"
@@ -12,6 +12,7 @@
          <article>
             <h3
                class="default_title animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Experience effortless team management.
             </h3>
@@ -22,6 +23,7 @@
             />
             <p
                class="default_text animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Make managing your team easier than ever with one dashboard - all
                in one place! Discover our white label CRM system for teams and
@@ -33,13 +35,14 @@
 
             <Ubutton
                class="intro_btn animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                Get started</Ubutton
             >
          </article>
       </aside>
 
-      <div class="box box2"></div>
+      <div class="box box2" loading="lazy"></div>
    </section>
 </template>
 

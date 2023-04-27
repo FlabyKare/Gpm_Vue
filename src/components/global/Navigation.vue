@@ -2,31 +2,37 @@
    <section class="nav_wrapper">
       <div class="blur"></div>
       <nav class="container nav">
-         <div class="burger-menu animation_fromLeft_to_right element-animation">
+         <div
+            class="burger-menu animation_fromLeft_to_right element-animation"
+            loading="lazy"
+         >
             <span class="line line-1 white_mode_color"></span>
             <span class="line line-2 white_mode_color"></span>
             <span class="line line-3 white_mode_color"></span>
          </div>
 
-         <div class="links">
+         <div class="links" loading="lazy">
             <img
                class="hover_visibility animation_fromLeft_to_right element-animation"
                width="45px"
                height="45px"
                src="@/assets/img/Navigation/Logo.png"
                alt="logo"
+               loading="lazy"
             />
             <a
                href="#"
                class="desktop_nav_link products_dropdown_link animation_fromLeft_to_right element-animation"
+               loading="lazy"
                >Products</a
             >
             <a
                href="#"
                class="desktop_nav_link animation_fromLeft_to_right element-animation"
+               loading="lazy"
                >Contact us</a
             >
-            <ul class="products_dropdown white_mode_color">
+            <ul class="products_dropdown white_mode_color" loading="lazy">
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
@@ -88,10 +94,10 @@
                </li>
             </ul>
          </div>
-         <a class="mobile_logo element-animation" href="#">
+         <a class="mobile_logo element-animation" href="#" loading="lazy">
             <img src="@/assets/img/Navigation/Title_Logo.png" alt="" />
          </a>
-         <div class="buttons">
+         <div class="buttons" loading="lazy">
             <div
                class="language_changer animation_fromRight_to_left element-animation"
             >

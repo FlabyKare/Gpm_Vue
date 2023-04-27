@@ -1,27 +1,34 @@
 <template>
-   <section class="nft_wrapper white_mode_color">
-      <div class="box"></div>
-      <h3 class="default_title animation_fromRight_to_left element-animation">
+   <section class="nft_wrapper white_mode_color" loading="lazy">
+      <div class="box" loading="lazy"></div>
+      <h3
+         class="default_title animation_fromRight_to_left element-animation"
+         loading="lazy"
+      >
          Go further - get an NFT that gives you up to 1000% per year!
       </h3>
-      <aside class="nft app_info_wrapper container">
+      <aside class="nft app_info_wrapper container" loading="lazy">
          <div
             class="slider_images_wrapper desktop nft_image_item animation_fromLeft_to_right element-animation"
+            loading="lazy"
          >
             <img
                class="slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.png"
                alt=""
+               loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.png"
                alt=""
+               loading="lazy"
             />
          </div>
          <article>
             <p
                class="default_text animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Discover our NFT collection designed to provide up to 1000%
                return on your investment annually. With NFTs, you can experience
@@ -31,27 +38,31 @@
             </p>
             <div
                class="slider_images_wrapper employees_mobile nft_image_item animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                <img
                   class="slider_images_wrapper_item nft_image"
                   src="@/assets/img/Main/Benefits/Nft_Picture.png"
                   alt=""
+                  loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item nft_image mobile_none"
                   src="@/assets/img/Main/Benefits/Nft_Picture.png"
                   alt=""
+                  loading="lazy"
                />
             </div>
             <Ubutton
                class="intro_btn animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                Get started for free</Ubutton
             >
          </article>
       </aside>
 
-      <div class="box box2"></div>
+      <div class="box box2" loading="lazy"></div>
    </section>
 </template>
 

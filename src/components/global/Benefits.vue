@@ -1,33 +1,39 @@
 <template>
-   <section class="benefits app_info white_mode_color">
-      <aside class="medicine app_info_wrapper container">
+   <section class="benefits app_info white_mode_color" loading="lazy">
+      <aside class="medicine app_info_wrapper container" loading="lazy">
          <div
             class="slider_images_wrapper desktop medicine_goods animation_fromLeft_to_right element-animation"
+            loading="lazy"
          >
             <img
                class="slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/1.png"
                alt=""
+               loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/2.png"
                alt=""
+               loading="lazy"
             />
             <img
                class="slider_images_wrapper_item third_image medicine_images"
                src="@/assets/img/Main/Benefits/3.png"
                alt=""
+               loading="lazy"
             />
          </div>
          <article>
             <h3
                class="default_title animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Get up to 70% discount on selected products.
             </h3>
             <p
                class="default_text animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Register now and take advantage of numerous discounted products.
                By signing up, you'll have access to exclusive offers and be able
@@ -37,57 +43,67 @@
             </p>
             <div
                class="slider_images_wrapper employees_mobile medicine_goods animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                <img
                   class="slider_images_wrapper_item medicine_images"
                   src="@/assets/img/Main/Benefits/1.png"
                   alt=""
+                  loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item medicine_images"
                   src="@/assets/img/Main/Benefits/2.png"
                   alt=""
+                  loading="lazy"
                />
                <img
                   class="slider_images_wrapper_item third_image medicine_images"
                   src="@/assets/img/Main/Benefits/3.png"
                   alt=""
+                  loading="lazy"
                />
             </div>
             <Ubutton
                class="intro_btn animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                Get started for free</Ubutton
             >
          </article>
-         <div class="box"></div>
+         <div class="box" loading="lazy"></div>
       </aside>
 
-      <aside class="hotel app_info_wrapper container">
+      <aside class="hotel app_info_wrapper container" loading="lazy">
          <div
             class="hotel_slider slider_images_wrapper desktop medicine_goods animation_fromLeft_to_right element-animation"
+            loading="lazy"
          >
             <img
                class="slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/2_hotel.png"
                alt=""
+               loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/1_hotel.png"
                alt=""
+               loading="lazy"
             />
          </div>
-         <div class="box box2"></div>
+         <div class="box box2" loading="lazy"></div>
 
          <article>
             <h3
                class="default_title animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Over 2M hotels worldwide, up to 70% off!
             </h3>
             <p
                class="default_text animation_fromRight_to_left element-animation"
+               loading="lazy"
             >
                Take advantage of GPM.Travel now and get up to 70% off for your
                next stay. With an extensive selection of more than 2M hotels and
@@ -97,20 +113,24 @@
             </p>
             <div
                class="slider_images_wrapper employees_mobile hotel_slider medicine_goods animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                <img
                   class="slider_images_wrapper_item hotel_images"
                   src="@/assets/img/Main/Benefits/2_hotel.png"
                   alt=""
+                  loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item hotel_images"
                   src="@/assets/img/Main/Benefits/1_hotel.png"
                   alt=""
+                  loading="lazy"
                />
             </div>
             <Ubutton
                class="intro_btn animation_fromLeft_to_right element-animation"
+               loading="lazy"
             >
                Get started for free</Ubutton
             >

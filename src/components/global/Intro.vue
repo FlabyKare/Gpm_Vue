@@ -1,17 +1,29 @@
 <template>
    <section id="intro" class="intro container">
-      <h1 class="intro_title animation_fromLeft_to_right element-animation">
+      <h1
+         class="intro_title animation_fromLeft_to_right element-animation"
+         loading="lazy"
+      >
          Experience the Power of <span>Digital</span> Business Profiles!
       </h1>
-      <p class="intro_text animation_fromLeft_to_right element-animation">
+      <p
+         class="intro_text animation_fromLeft_to_right element-animation"
+         loading="lazy"
+      >
          And discover the added perks.
       </p>
-      <Ubutton class="intro_btn animation_fromLeft_to_right element-animation"
+      <Ubutton
+         class="intro_btn animation_fromLeft_to_right element-animation"
+         loading="lazy"
          >Get started for free</Ubutton
       >
-      <img class="employees" src="@/assets/img/Header/Peoples.png" />
+      <img
+         class="employees"
+         src="@/assets/img/Header/Peoples.png"
+         loading="lazy"
+      />
 
-      <div class="box"></div>
+      <div class="box" loading="lazy"></div>
    </section>
 </template>
 

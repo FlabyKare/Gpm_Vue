@@ -16,6 +16,7 @@ import Partner from "./Partner.vue";
 import Roadmap from "./Roadmap.vue";
 import Accordion from "./Accordion.vue";
 import Form from "./Form.vue";
+import Email from "./Email.vue";
 
 const components = [
    { name: "Header", component: Header },
@@ -36,6 +37,7 @@ const components = [
    { name: "Roadmap", component: Roadmap },
    { name: "Accordion", component: Accordion },
    { name: "Form", component: Form },
+   { name: "Email", component: Email },
 ];
 
 export default {

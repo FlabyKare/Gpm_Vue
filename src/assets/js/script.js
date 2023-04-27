@@ -1,46 +1,43 @@
 export default function allScripts() {
-   //! Preloader
-
-   window.addEventListener("load", function () {
+   window.addEventListener("load", () => {
       document.body.classList.add("preloader");
-      setTimeout(function () {
+      setTimeout(() => {
          document.body.classList.remove("preloader");
-      }, 500);
+      }, 250);
    });
 
    //! Плавная прогрузка Элементов
-
-   function onEntry(entry) {
-      entry.forEach((change) => {
-         if (change.isIntersecting) {
-            change.target.classList.add("element-show");
+   function onEntry(entries, observer) {
+      entries.forEach((entry) => {
+         if (entry.isIntersecting) {
+            entry.target.classList.add("element-show");
+            observer.unobserve(entry.target);
          }
       });
    }
 
-   let options = {
-      threshold: [0.35],
-      rootMargin: "0px 0px -5px 0px", // добавляем отступ внизу элемента на 100 пикселей
-   };
-   let observer = new IntersectionObserver(onEntry, options);
-   let elements = document.querySelectorAll(".element-animation");
-
-   elements.forEach((elm) => {
+   let observer = new IntersectionObserver(onEntry, {
+      threshold: 0.35,
+      rootMargin: "-5px 0px",
+   });
+   document.querySelectorAll(".element-animation").forEach((elm) => {
       observer.observe(elm);
    });
 
    //! Плавный переход по "Якорным ссылкам"
 
-   document.querySelectorAll("a.scrollto").forEach((link) => {
-      link.addEventListener("click", function (event) {
-         event.preventDefault();
-         let elementClick = this.getAttribute("href");
-         let destination = document.querySelector(elementClick).offsetTop;
-         window.scrollTo({
-            top: destination,
-            behavior: "smooth",
-         });
+   function handleClick(event) {
+      event.preventDefault();
+      const elementClick = this.getAttribute("href");
+      const destination = document.querySelector(elementClick).offsetTop;
+      window.scrollTo({
+         top: destination,
+         behavior: "smooth",
       });
+   }
+
+   document.querySelectorAll("a.scrollto").forEach((link) => {
+      link.addEventListener("click", handleClick);
    });
 
    //! Выбор языка
@@ -109,15 +106,6 @@ export default function allScripts() {
       menuDropDownList.classList.toggle("show");
       menuDropDown.classList.toggle("show");
    });
-
-   function randomize() {
-      const box = document.querySelector(".box");
-      const randomX = Math.floor(Math.random() * 100); // рандомное число в диапазоне от -100 до 100
-      const randomY = Math.floor(Math.random() * 100); // рандомное число в диапазоне от -100 до 100
-      box.style.transform = `translate(${randomX}%, ${randomY}%)`;
-   }
-
-   //    setInterval(randomize, 1000);
 
    let imagesWrapperItem = document.querySelectorAll(
       ".slider_images_wrapper_item"
