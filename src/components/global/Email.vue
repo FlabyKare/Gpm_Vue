@@ -17,13 +17,13 @@
                <img
                   class="white_line"
                   src="@/assets/img/Main/Email_WhiteLine.webp"
-                  alt=""
+                  alt="Underline for input"
                   loading="lazy"
                />
                <img
                   class="black_line"
                   src="@/assets/img/Main/Email_BlaсkLine.webp"
-                  alt=""
+                  alt="Underline for input"
                   loading="lazy"
                />
             </div>
@@ -66,6 +66,11 @@
 
    @media (max-width: 767.98px) {
       padding: 45px 20px;
+   }
+   @media (max-width: 991.98px) {
+      background: url("@/assets/img/Main/Email_Bg-mobile.webp");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
    }
 }
 aside {

@@ -14,13 +14,13 @@
          <img
             class="card animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce_Card.webp"
-            alt="card"
+            alt="Image of card in the Spruce section"
             loading="lazy"
          />
          <img
             class="spruce_img animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce.webp"
-            alt="spruce"
+            alt="Image of Spruce"
             loading="lazy"
          />
       </aside>

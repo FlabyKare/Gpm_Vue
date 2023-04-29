@@ -15,13 +15,13 @@
             <img
                class="slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.webp"
-               alt=""
+               alt="Image of NFT"
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.webp"
-               alt=""
+               alt="Image of NFT"
                loading="lazy"
             />
          </div>
@@ -42,14 +42,14 @@
             >
                <img
                   class="slider_images_wrapper_item nft_image"
-                  src="@/assets/img/Main/Benefits/Nft_Picture.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/Nft_Picture-mobile.webp"
+                  alt="Image of NFT"
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item nft_image mobile_none"
-                  src="@/assets/img/Main/Benefits/Nft_Picture.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/Nft_Picture-mobile.webp"
+                  alt="Image of NFT"
                   loading="lazy"
                />
             </div>
@@ -119,15 +119,16 @@
    max-width: 660px;
    text-align: center;
 }
-
-@media (min-width: 576px) {
-   .slider_images_wrapper_item.showing {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: rotate(-20deg) translate(-35%, -100%);
-      z-index: 0;
-      //  transition: 0.5s;
+@media (min-width: 992px) {
+   .desktop {
+      .slider_images_wrapper_item.showing {
+         position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: rotate(-20deg) translate(-35%, -100%);
+         z-index: 0;
+         //  transition: 0.5s;
+      }
    }
 }
 @media (max-width: 575.98px) {
@@ -151,7 +152,7 @@
 
 @media (min-width: 576px) and (max-width: 991.98px) {
    .nft_image_item {
-      margin: 20% auto 100px;
+      margin: 50px auto 100px;
    }
 }
 
@@ -166,6 +167,12 @@
    }
    .employees_mobile {
       display: flex;
+   }
+}
+
+@media (min-width: 992px) {
+   .employees_mobile {
+      display: none;
    }
 }
 </style>

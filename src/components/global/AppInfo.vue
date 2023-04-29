@@ -6,9 +6,9 @@
       <span class="white_mode_color"></span>
       <aside class="app_info_wrapper container" loading="lazy">
          <img
-            class="desktop employees animation_fromLeft_to_right element-animation"
+            class="mobile_none employees animation_fromLeft_to_right element-animation"
             src="@/assets/img/Header/employees.webp"
-            alt=""
+            alt="Emplyoees profiles"
             loading="lazy"
          />
          <article>
@@ -29,10 +29,11 @@
                professionals end expand your network. You will also be able to
                access exclusive discounts on selected products.
             </p>
+
             <img
-               class="employees_mobile animation_fromRight_to_left element-animation"
-               src="@/assets/img/Header/employees.webp"
-               alt=""
+               class="desktop_none animation_fromRight_to_left element-animation"
+               src="@/assets/img/Header/employees-mobile.webp"
+               alt="Emplyoees profiles"
                loading="lazy"
             />
             <Ubutton
@@ -93,5 +94,10 @@
 }
 .app_info {
    padding-top: 50px;
+}
+.desktop_none {
+   width: 100%;
+   height: auto;
+   margin: 50px auto 0;
 }
 </style>

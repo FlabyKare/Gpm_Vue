@@ -19,8 +19,10 @@
       >
       <img
          class="employees"
-         src="@/assets/img/Header/Peoples.webp"
+         src="@/assets/img/Header/Peoples-mobile.webp"
+         srcset="@/assets/img/Header/Peoples.webp 992px"
          loading="lazy"
+         alt="Profiles of peoples"
       />
 
       <div class="box" loading="lazy"></div>

@@ -26,7 +26,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Link.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of link"
                   />
                   <p>GPM Link</p>
                </a>
@@ -39,7 +39,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/CPN_Contact.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of contact"
                   />
                   <p>GPM for Businesses and Teams</p>
                </a>
@@ -52,7 +52,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Mail.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of email"
                   />
                   <p>GPM Mall</p>
                </a>
@@ -65,7 +65,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Travel.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of travel"
                   />
                   <p>GPM Travel</p>
                </a>
@@ -78,7 +78,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Token.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of token"
                   />
                   <p>GPM Token</p>
                </a>
@@ -91,7 +91,7 @@
                <a href="#" class="dropdown_link">
                   <img
                      src="@/assets/img/Navigation/GPM_Dollar.png"
-                     alt="dropdown_link_img"
+                     alt="Icon of vaulue"
                   />
                   <p>GPM Reseller</p>
                </a>
@@ -128,7 +128,7 @@
                <a href="#"
                   ><img
                      src="@/assets/img/Navigation/English.png"
-                     alt=""
+                     alt="Icon of English language"
                      loading="lazy"
                /></a>
             </li>
@@ -136,7 +136,7 @@
                <a href="#"
                   ><img
                      src="@/assets/img/Navigation/Franch.png"
-                     alt=""
+                     alt="Icon of Franch language"
                      loading="lazy"
                /></a>
             </li>
@@ -148,7 +148,7 @@
                   ><img
                      width="100%"
                      src="@/assets/img/Navigation/Spanish.png"
-                     alt=""
+                     alt="Icon of Spanish language"
                      loading="lazy"
                /></a>
             </li>
@@ -182,7 +182,7 @@
             <a href="#" loading="lazy"
                ><img
                   src="@/assets/img/Navigation/English.png"
-                  alt=""
+                  alt="Icon of English language"
                   loading="lazy"
             /></a>
          </li>
@@ -190,7 +190,7 @@
             <a href="#" loading="lazy"
                ><img
                   src="@/assets/img/Navigation/Franch.png"
-                  alt=""
+                  alt="Icon of Franch language"
                   loading="lazy"
             /></a>
          </li>
@@ -202,7 +202,7 @@
                ><img
                   width="100%"
                   src="@/assets/img/Navigation/Spanish.png"
-                  alt=""
+                  alt="Icon of Spanish language"
                   loading="lazy"
             /></a>
          </li>

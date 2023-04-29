@@ -37,7 +37,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/GPM_Link.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of link"
                      />
                      <p>GPM Link</p>
                   </a>
@@ -47,7 +47,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/CPN_Contact.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of contact"
                      />
                      <p>GPM for Businesses and Teams</p>
                   </a>
@@ -57,7 +57,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/GPM_Mail.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of email"
                      />
                      <p>GPM Mall</p>
                   </a>
@@ -67,7 +67,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/GPM_Travel.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of travel"
                      />
                      <p>GPM Travel</p>
                   </a>
@@ -77,7 +77,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/GPM_Token.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of token"
                      />
                      <p>GPM Token</p>
                   </a>
@@ -87,7 +87,7 @@
                   <a href="#" class="dropdown_link">
                      <img
                         src="@/assets/img/Navigation/GPM_Dollar.png"
-                        alt="dropdown_link_img"
+                        alt="Icon of vaulue"
                      />
                      <p>GPM Reseller</p>
                   </a>
@@ -95,7 +95,10 @@
             </ul>
          </div>
          <a class="mobile_logo element-animation" href="#" loading="lazy">
-            <img src="@/assets/img/Navigation/Title_Logo.png" alt="" />
+            <img
+               src="@/assets/img/Navigation/Title_Logo.png"
+               alt="Mobile logo"
+            />
          </a>
          <div class="buttons" loading="lazy">
             <div
@@ -104,23 +107,23 @@
                <img
                   class="language show_language hover_shadow"
                   src="@/assets/img/Navigation/English.png"
-                  alt="choice_language"
+                  alt="Icon of English language"
                />
                <div class="dropdown_menu dropdown_call white_mode_color">
                   <img
                      class="language hover_shadow"
                      src="@/assets/img/Navigation/English.png"
-                     alt="English_icon"
+                     alt="Icon of English language"
                   />
                   <img
                      class="language hover_shadow"
                      src="@/assets/img/Navigation/Franch.png"
-                     alt="Franch_icon"
+                     alt="Icon of Franch language"
                   />
                   <img
                      class="language hover_shadow"
                      src="@/assets/img/Navigation/Spanish.png"
-                     alt="Spanish_icon"
+                     alt="Icon of Spanish language"
                   />
                </div>
             </div>
@@ -131,7 +134,7 @@
                   <img
                      class="dark_icon unions"
                      src="@/assets/img/Navigation/Union_group.png"
-                     alt="unions"
+                     alt="unions image"
                   />
                   <img
                      class="dark_icon star1 little_star"

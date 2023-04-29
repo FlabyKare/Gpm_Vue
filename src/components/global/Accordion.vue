@@ -38,13 +38,13 @@
          <img
             class="animation_fromRight_to_left element-animation whiteLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline.png"
-            alt=""
+            alt="Question-Underline"
             loading="lazy"
          />
          <img
             class="animation_fromLeft_to_right element-animation blackLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline_Black.png"
-            alt=""
+            alt="Question-Underline"
             loading="lazy"
          />
       </li>

@@ -3,13 +3,13 @@
       <img
          class="desktop white_mode_color animation_fromLeft_to_right element-animation"
          src="@/assets/img/Main/Roadmap_Image.webp"
-         alt=""
+         alt="Image of roadmap on the desktop"
          loading="lazy"
       />
       <img
          class="mobile"
          src="@/assets/img/Main/Mobile_Roadmap_Image.webp"
-         alt=""
+         alt="Image of roadmap on the mobile"
          loading="lazy"
       />
 

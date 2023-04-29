@@ -17,11 +17,18 @@
       </p>
       <aside class="container" loading="lazy">
          <img
-            class="partner_image animation_fromLeft_to_right element-animation"
-            src="@/assets/img/Main/Partner_Preview.webp"
-            alt=""
+            class="desktop_none partner_image animation_fromLeft_to_right element-animation"
+            src="@/assets/img/Main/Partner_Preview-mobile.webp"
+            alt="Image of partners"
             loading="lazy"
          />
+         <img
+            class="mobile_none partner_image animation_fromLeft_to_right element-animation"
+            src="@/assets/img/Main/Partner_Preview.webp"
+            alt="Image of partners"
+            loading="lazy"
+         />
+
          <Ubutton
             class="intro_btn animation_fromLeft_to_right element-animation"
             loading="lazy"

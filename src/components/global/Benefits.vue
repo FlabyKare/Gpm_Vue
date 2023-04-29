@@ -8,19 +8,19 @@
             <img
                class="slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/1.webp"
-               alt=""
+               alt="The first item of medication"
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/2.webp"
-               alt=""
+               alt="The second item of medication"
                loading="lazy"
             />
             <img
                class="slider_images_wrapper_item third_image medicine_images"
                src="@/assets/img/Main/Benefits/3.webp"
-               alt=""
+               alt="The third item of medication"
                loading="lazy"
             />
          </div>
@@ -47,20 +47,20 @@
             >
                <img
                   class="slider_images_wrapper_item medicine_images"
-                  src="@/assets/img/Main/Benefits/1.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/1-mobile.webp"
+                  alt="The first item of medication"
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item medicine_images"
-                  src="@/assets/img/Main/Benefits/2.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/2-mobile.webp"
+                  alt="The second item of medication"
                   loading="lazy"
                />
                <img
                   class="slider_images_wrapper_item third_image medicine_images"
-                  src="@/assets/img/Main/Benefits/3.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/3-mobile.webp"
+                  alt="The third item of medication"
                   loading="lazy"
                />
             </div>
@@ -82,13 +82,13 @@
             <img
                class="slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/2_hotel.webp"
-               alt=""
+               alt="Second shot of the hotel"
                loading="lazy"
             />
             <img
                class="showing slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/1_hotel.webp"
-               alt=""
+               alt="First shot of the hotel"
                loading="lazy"
             />
          </div>
@@ -117,14 +117,14 @@
             >
                <img
                   class="slider_images_wrapper_item hotel_images"
-                  src="@/assets/img/Main/Benefits/2_hotel.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/2_hotel-mobile.webp"
+                  alt="Second shot of the hotel"
                   loading="lazy"
                />
                <img
                   class="showing slider_images_wrapper_item hotel_images"
-                  src="@/assets/img/Main/Benefits/1_hotel.webp"
-                  alt=""
+                  src="@/assets/img/Main/Benefits/1_hotel-mobile.webp"
+                  alt="Fisrt shot of the hotel"
                   loading="lazy"
                />
             </div>
