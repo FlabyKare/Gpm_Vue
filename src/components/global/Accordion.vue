@@ -52,9 +52,9 @@
             loading="lazy"
          />
       </li>
-      <div class="box box2" loading="lazy"></div>
-      <div class="box box3" loading="lazy"></div>
-      <div class="box box4" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+      <img src="@/assets/img/blur.png" class="box box3" loading="lazy" />
+      <img src="@/assets/img/blur.png" class="box box4" loading="lazy" />
    </ul>
 </template>
 <script>

@@ -1,7 +1,8 @@
 <template>
    <section class="preview app_info white_mode_color" loading="lazy">
-      <div class="box" loading="lazy"></div>
-      <div class="box box2" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box" loading="lazy" />
+
+      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
 
       <aside class="app_info_wrapper container" loading="lazy">
          <img
@@ -46,7 +47,7 @@
          </article>
       </aside>
 
-      <div class="box box2" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
    </section>
 </template>
 

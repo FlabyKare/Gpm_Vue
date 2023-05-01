@@ -1185,3 +1185,9 @@ body::-webkit-scrollbar-button {
     display: none !important;
   }
 }
+.box {
+  -webkit-filter: none !important;
+          filter: none !important;
+  opacity: 0.1 !important;
+  background: none !important;
+}

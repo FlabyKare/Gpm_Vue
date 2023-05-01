@@ -12,7 +12,7 @@
          <div class="circle" loading="lazy"></div>
       </div>
    </div>
-   <div class="box" loading="lazy"></div>
+   <img src="@/assets/img/blur.png" class="box" loading="lazy" />
 
    <header class="main_page_header" loading="lazy">
       <Menu />

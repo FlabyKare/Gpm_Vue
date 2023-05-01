@@ -33,7 +33,7 @@
          alt="Profiles of peoples"
       />
 
-      <div class="box" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box" loading="lazy" />
    </section>
 </template>
 

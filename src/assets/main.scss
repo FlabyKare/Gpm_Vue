@@ -413,9 +413,11 @@ $white-mode-color: #efefef;
    }
 }
 
-// .box {
-//    filter: none !important;
-// }
+.box {
+   filter: none !important;
+   opacity: 0.1 !important;
+   background: none !important;
+}
 // /* iPhone 5/5S/5C */
 // @media (width: 320px) and (height: 568px) {
 //    /* CSS-правила для iPhone 5/5S/5C */

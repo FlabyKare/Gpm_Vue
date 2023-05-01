@@ -1,6 +1,7 @@
 <template>
    <section class="nft_wrapper white_mode_color" loading="lazy">
-      <div class="box" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+
       <h3
          class="default_title animation_fromRight_to_left element-animation"
          loading="lazy"
@@ -70,7 +71,7 @@
          </article>
       </aside>
 
-      <div class="box box2" loading="lazy"></div>
+      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
    </section>
 </template>
 

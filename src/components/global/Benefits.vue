@@ -83,7 +83,7 @@
                Get started for free</Ubutton
             >
          </article>
-         <div class="box" loading="lazy"></div>
+         <img src="@/assets/img/blur.png" class="box" loading="lazy" />
       </aside>
 
       <aside class="hotel app_info_wrapper container" loading="lazy">
@@ -108,7 +108,7 @@
                loading="lazy"
             />
          </div>
-         <div class="box box2" loading="lazy"></div>
+         <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
 
          <article>
             <h3
