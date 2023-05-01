@@ -417,7 +417,7 @@ $white-mode-color: #efefef;
    filter: none !important;
 }
 /* iPhone 5/5S/5C */
-@media (width: 320px) and (height: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 320px) and (height: 568px) {
    /* CSS-правила для iPhone 5/5S/5C */
    .element-animation {
       opacity: 1 !important;
@@ -430,7 +430,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPhone 6/6S/7/8 */
-@media (width: 375px) and (height: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 375px) and (height: 667px) {
    /* CSS-правила для iPhone 6/6S/7/8 */
    .element-animation {
       opacity: 1 !important;
@@ -443,7 +443,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPhone 6+/6S+/7+/8+ */
-@media (width: 414px) and (height: 736px) and (-webkit-min-device-pixel-ratio: 3) {
+@media (width: 414px) and (height: 736px) {
    /* CSS-правила для iPhone 6+/6S+/7+/8+ */
    .element-animation {
       opacity: 1 !important;
@@ -456,7 +456,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPhone X/XS/11 Pro */
-@media (width: 375px) and (height: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+@media (width: 375px) and (height: 812px) {
    /* CSS-правила для iPhone X/XS/11 Pro */
    .element-animation {
       opacity: 1 !important;
@@ -469,7 +469,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPhone XR/11 */
-@media (width: 414px) and (height: 896px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 414px) and (height: 896px) {
    /* CSS-правила для iPhone XR/11 */
    .element-animation {
       opacity: 1 !important;
@@ -482,7 +482,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPhone XS Max/11 Pro Max */
-@media (width: 414px) and (height: 896px) and (-webkit-min-device-pixel-ratio: 3) {
+@media (width: 414px) and (height: 896px) {
    /* CSS-правила для iPhone XS Max/11 Pro Max */
    .element-animation {
       opacity: 1 !important;
@@ -495,7 +495,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPad */
-@media (width: 768px) and (height: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+@media (width: 768px) and (height: 1024px) {
    /* CSS-правила для iPad */
    .element-animation {
       opacity: 1 !important;
@@ -508,7 +508,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPad Pro 10.5" */
-@media (width: 834px) and (height: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 834px) and (height: 1112px) {
    /* CSS-правила для iPad Pro 10.5" */
    .element-animation {
       opacity: 1 !important;
@@ -521,7 +521,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPad Pro 11" */
-@media (width: 834px) and (height: 1194px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 834px) and (height: 1194px) {
    /* CSS-правила для iPad Pro 11" */
    .element-animation {
       opacity: 1 !important;
@@ -534,7 +534,7 @@ $white-mode-color: #efefef;
 }
 
 /* iPad Pro 12.9" */
-@media (width: 1024px) and (height: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (width: 1024px) and (height: 1366px) {
    /* CSS-правила для iPad Pro 12.9" */
    .element-animation {
       opacity: 1 !important;
