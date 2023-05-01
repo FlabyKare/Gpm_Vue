@@ -18,10 +18,18 @@
          >Get started for free</Ubutton
       >
       <img
-         class="employees"
+         width="580"
+         height="1175"
+         class="employees desktop_none"
          src="@/assets/img/Header/Peoples-mobile.webp"
-         srcset="@/assets/img/Header/Peoples.webp 992px"
-         loading="lazy"
+         alt="Profiles of peoples"
+      />
+
+      <img
+         width="580"
+         height="1175"
+         class="employees mobile_none"
+         src="@/assets/img/Header/Peoples.webp"
          alt="Profiles of peoples"
       />
 
@@ -81,8 +89,6 @@
       text-fill-color: transparent;
    }
    .employees {
-      width: 580px;
-      height: 1175px;
       position: absolute;
       top: -185px;
       transform: rotate(37deg);

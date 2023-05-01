@@ -12,12 +12,17 @@
             each card!
          </h3>
          <img
+            width="320"
+            height="203"
             class="card animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce_Card.webp"
-            alt="Image of card in the Spruce section"
+            alt="Image of card in the
+         Spruce section"
             loading="lazy"
          />
          <img
+            width="190"
+            height="330"
             class="spruce_img animation_fromRight_to_left element-animation"
             src="@/assets/img/Header/Spruce.webp"
             alt="Image of Spruce"
@@ -73,8 +78,6 @@
    top: 10px;
    right: -10px;
 
-   width: 320px;
-   height: 203.37px;
    border-radius: 20px;
    @media (min-height: 300px) {
       &.animation_fromRight_to_left.element-animation {
@@ -99,9 +102,6 @@
    position: absolute;
    top: -50px;
    right: -10px;
-
-   width: 190px;
-   height: 330px;
 }
 
 //! Comment

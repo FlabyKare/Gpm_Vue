@@ -1,9 +1,14 @@
 <script setup>
 import { onMounted } from "vue";
-import allScripts from "@/assets/js/script.js";
+// import allScripts from "@/assets/js/script.js";
 
 onMounted(() => {
-   allScripts();
+   window.addEventListener("load", () => {
+      document.body.classList.add("preloader");
+      setTimeout(() => {
+         document.body.classList.remove("preloader");
+      }, 250);
+   });
 });
 </script>
 

@@ -1043,8 +1043,6 @@ body::-webkit-scrollbar-button {
           transform: translate(-28%, 168%);
 }
 .theme_button.dark .unions {
-  width: 30px;
-  height: 20px;
   position: absolute;
   top: 5px;
   left: 5px;
@@ -1054,12 +1052,6 @@ body::-webkit-scrollbar-button {
 .theme_button.dark .big_star,
 .theme_button.dark .little_star {
   position: absolute;
-  width: 3px;
-  height: 3px;
-}
-.theme_button.dark .little_star {
-  width: 2px;
-  height: 2px;
 }
 .theme_button.dark .star1 {
   top: 25%;
@@ -1095,8 +1087,6 @@ body::-webkit-scrollbar-button {
 }
 .theme_button.dark .moon {
   position: absolute;
-  width: 11px;
-  height: 16px;
   top: 25%;
   left: 25%;
   -webkit-transform: translate(25px, -1.9px);
@@ -1117,8 +1107,6 @@ body::-webkit-scrollbar-button {
 }
 .theme_button.white .sun,
 .theme_button.white .sun_unions {
-  width: 18px;
-  height: 18px;
   position: absolute;
   right: 5px;
   top: 5px;
@@ -1130,7 +1118,6 @@ body::-webkit-scrollbar-button {
           transform: translate(-143%, -12%);
 }
 .theme_button.white .sun_unions {
-  width: 27px;
   -webkit-transform: translate(3%, 5%);
           transform: translate(3%, 5%);
   -webkit-transition: 0.35s;
@@ -1197,4 +1184,8 @@ body::-webkit-scrollbar-button {
   .mobile_none {
     display: none !important;
   }
+}
+.box {
+  -webkit-filter: none !important;
+          filter: none !important;
 }

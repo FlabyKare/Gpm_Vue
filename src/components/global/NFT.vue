@@ -13,12 +13,16 @@
             loading="lazy"
          >
             <img
+               width="232"
+               height="365"
                class="slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                alt="Image of NFT"
                loading="lazy"
             />
             <img
+               width="232"
+               height="365"
                class="showing slider_images_wrapper_item nft_image"
                src="@/assets/img/Main/Benefits/Nft_Picture.webp"
                alt="Image of NFT"
@@ -41,12 +45,16 @@
                loading="lazy"
             >
                <img
+                  width="232"
+                  height="365"
                   class="slider_images_wrapper_item nft_image"
                   src="@/assets/img/Main/Benefits/Nft_Picture-mobile.webp"
                   alt="Image of NFT"
                   loading="lazy"
                />
                <img
+                  width="232"
+                  height="365"
                   class="showing slider_images_wrapper_item nft_image mobile_none"
                   src="@/assets/img/Main/Benefits/Nft_Picture-mobile.webp"
                   alt="Image of NFT"

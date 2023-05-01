@@ -36,6 +36,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/GPM_Link.png"
                         alt="Icon of link"
                      />
@@ -46,6 +48,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/CPN_Contact.png"
                         alt="Icon of contact"
                      />
@@ -56,6 +60,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/GPM_Mail.png"
                         alt="Icon of email"
                      />
@@ -66,6 +72,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/GPM_Travel.png"
                         alt="Icon of travel"
                      />
@@ -76,6 +84,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/GPM_Token.png"
                         alt="Icon of token"
                      />
@@ -86,6 +96,8 @@
                <li class="dropdown_item white_mode_color">
                   <a href="#" class="dropdown_link">
                      <img
+                        width="17px"
+                        height="23px"
                         src="@/assets/img/Navigation/GPM_Dollar.png"
                         alt="Icon of vaulue"
                      />
@@ -94,8 +106,11 @@
                </li>
             </ul>
          </div>
+
          <a class="mobile_logo element-animation" href="#" loading="lazy">
             <img
+               width="45px"
+               height="45px"
                src="@/assets/img/Navigation/Title_Logo.png"
                alt="Mobile logo"
             />
@@ -133,6 +148,8 @@
                <div class="dark_icons">
                   <img
                      class="dark_icon unions"
+                     width="30px"
+                     height="20px"
                      src="@/assets/img/Navigation/Union_group.png"
                      alt="unions image"
                   />
@@ -140,26 +157,36 @@
                      class="dark_icon star1 little_star"
                      src="@/assets/img/Navigation/Big_star.png"
                      alt="star1"
+                     width="5px"
+                     height="5px"
                   />
                   <img
                      class="dark_icon star2 big_star"
                      src="@/assets/img/Navigation/Big_star.png"
                      alt="star2"
+                     width="5px"
+                     height="5px"
                   />
                   <img
                      class="dark_icon star3 big_star"
                      src="@/assets/img/Navigation/Big_star.png"
                      alt="star3"
+                     width="5px"
+                     height="5px"
                   />
                   <img
                      class="dark_icon star4 little_star"
                      src="@/assets/img/Navigation/Big_star.png"
                      alt="star4"
+                     width="5px"
+                     height="5px"
                   />
                   <img
                      class="dark_icon moon"
                      src="@/assets/img/Navigation/Moon.png"
                      alt="moon"
+                     width="11px"
+                     height="16px"
                   />
                </div>
 
@@ -168,11 +195,15 @@
                      class="sun"
                      src="@/assets/img/Navigation/Sun.png"
                      alt="Sun"
+                     width="18px"
+                     height="18px"
                   />
                   <img
                      class="sun_unions"
                      src="@/assets/img/Navigation/Sun_unions.png"
                      alt="Unions"
+                     width="27px"
+                     height="18px"
                   />
                </div>
             </button>

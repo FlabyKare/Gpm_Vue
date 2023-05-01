@@ -17,8 +17,8 @@
    color: #ffffff;
    max-width: 500px;
    hyphens: auto;
-   padding-left: 20px;
-   padding-right: 20px;
+   //    padding-left: 20px;
+   //    padding-right: 20px;
 }
 @mixin default_title {
    font-family: $Poppins;
@@ -38,8 +38,8 @@
    color: #ffffff;
    max-width: 500px;
    hyphens: auto;
-   padding-left: 20px;
-   padding-right: 20px;
+   //    padding-left: 20px;
+   //    padding-right: 20px;
 }
 .app_info_wrapper {
    display: flex;
@@ -54,10 +54,6 @@
 .intro_btn,
 .default_text {
    margin-top: 50px;
-}
-img {
-   max-width: 515px;
-   height: 495px;
 }
 
 //! Comment
@@ -124,10 +120,6 @@ img {
 }
 
 @media (min-width: 992px) {
-   img {
-      height: auto !important;
-      width: 100%;
-   }
    .employees_mobile {
       display: none !important;
    }
@@ -137,9 +129,5 @@ img {
    .default_text {
       width: 100%;
       max-width: 750px;
-   }
-   img {
-      height: 650px;
-      max-width: 640px !important;
    }
 }

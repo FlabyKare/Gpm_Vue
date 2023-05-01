@@ -5,6 +5,8 @@
 
       <aside class="app_info_wrapper container" loading="lazy">
          <img
+            width="535"
+            height="337"
             class="mobile_none employees animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Program_Preview.webp"
             alt="Preview of program"
@@ -17,6 +19,8 @@
                Experience effortless team management.
             </h3>
             <img
+               width="535"
+               height="337"
                class="desktop_none animation_fromRight_to_left element-animation"
                src="@/assets/img/Main/Program_Preview-mobile.webp"
                alt="Preview of program"

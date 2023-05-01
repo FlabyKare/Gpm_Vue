@@ -17,12 +17,16 @@
       </p>
       <aside class="container" loading="lazy">
          <img
+            width="588"
+            height="285"
             class="desktop_none partner_image animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Partner_Preview-mobile.webp"
             alt="Image of partners"
             loading="lazy"
          />
          <img
+            width="588"
+            height="285"
             class="mobile_none partner_image animation_fromLeft_to_right element-animation"
             src="@/assets/img/Main/Partner_Preview.webp"
             alt="Image of partners"

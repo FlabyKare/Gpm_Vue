@@ -36,12 +36,16 @@
             {{ item.answer }}
          </p>
          <img
+            width="995"
+            height="1"
             class="animation_fromRight_to_left element-animation whiteLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline.png"
             alt="Question-Underline"
             loading="lazy"
          />
          <img
+            width="995"
+            height="1"
             class="animation_fromLeft_to_right element-animation blackLine white_mode_color"
             src="@/assets/img/Main/Accordion/Question_Underline_Black.png"
             alt="Question-Underline"

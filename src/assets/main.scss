@@ -260,8 +260,6 @@ $white-mode-color: #efefef;
       }
 
       .unions {
-         width: 30px;
-         height: 20px;
          position: absolute;
          top: 5px;
          left: 5px;
@@ -271,13 +269,6 @@ $white-mode-color: #efefef;
       .big_star,
       .little_star {
          position: absolute;
-         width: 3px;
-         height: 3px;
-      }
-
-      .little_star {
-         width: 2px;
-         height: 2px;
       }
 
       .star1 {
@@ -310,8 +301,6 @@ $white-mode-color: #efefef;
 
       .moon {
          position: absolute;
-         width: 11px;
-         height: 16px;
          top: 25%;
          left: 25%;
          transform: translate(25px, -1.9px);
@@ -339,8 +328,6 @@ $white-mode-color: #efefef;
 
    .sun,
    .sun_unions {
-      width: 18px;
-      height: 18px;
       position: absolute;
       right: 5px;
       top: 5px;
@@ -352,7 +339,6 @@ $white-mode-color: #efefef;
    }
 
    .sun_unions {
-      width: 27px;
       transform: translate(3%, 5%);
       transition: 0.35s;
    }
@@ -425,4 +411,8 @@ $white-mode-color: #efefef;
    .mobile_none {
       display: none !important;
    }
+}
+
+.box {
+   filter: none !important;
 }

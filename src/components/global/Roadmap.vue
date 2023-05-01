@@ -1,6 +1,8 @@
 <template>
    <section class="roadmap" loading="lazy">
       <img
+         width="1435"
+         height="280"
          class="desktop white_mode_color animation_fromLeft_to_right element-animation"
          src="@/assets/img/Main/Roadmap_Image.webp"
          alt="Image of roadmap on the desktop"
@@ -8,6 +10,8 @@
       />
       <img
          class="mobile"
+         width="210"
+         height="480"
          src="@/assets/img/Main/Mobile_Roadmap_Image.webp"
          alt="Image of roadmap on the mobile"
          loading="lazy"

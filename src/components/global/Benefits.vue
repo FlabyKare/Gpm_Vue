@@ -6,18 +6,24 @@
             loading="lazy"
          >
             <img
+               width="130"
+               height="170"
                class="slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/1.webp"
                alt="The first item of medication"
                loading="lazy"
             />
             <img
+               width="130"
+               height="170"
                class="showing slider_images_wrapper_item medicine_images"
                src="@/assets/img/Main/Benefits/2.webp"
                alt="The second item of medication"
                loading="lazy"
             />
             <img
+               width="130"
+               height="170"
                class="slider_images_wrapper_item third_image medicine_images"
                src="@/assets/img/Main/Benefits/3.webp"
                alt="The third item of medication"
@@ -46,18 +52,24 @@
                loading="lazy"
             >
                <img
+                  width="130"
+                  height="170"
                   class="slider_images_wrapper_item medicine_images"
                   src="@/assets/img/Main/Benefits/1-mobile.webp"
                   alt="The first item of medication"
                   loading="lazy"
                />
                <img
+                  width="130"
+                  height="170"
                   class="showing slider_images_wrapper_item medicine_images"
                   src="@/assets/img/Main/Benefits/2-mobile.webp"
                   alt="The second item of medication"
                   loading="lazy"
                />
                <img
+                  width="130"
+                  height="170"
                   class="slider_images_wrapper_item third_image medicine_images"
                   src="@/assets/img/Main/Benefits/3-mobile.webp"
                   alt="The third item of medication"
@@ -80,12 +92,16 @@
             loading="lazy"
          >
             <img
+               width="477"
+               height="260"
                class="slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/2_hotel.webp"
                alt="Second shot of the hotel"
                loading="lazy"
             />
             <img
+               width="477"
+               height="260"
                class="showing slider_images_wrapper_item hotel_images"
                src="@/assets/img/Main/Benefits/1_hotel.webp"
                alt="First shot of the hotel"
@@ -116,12 +132,16 @@
                loading="lazy"
             >
                <img
+                  width="477"
+                  height="260"
                   class="slider_images_wrapper_item hotel_images"
                   src="@/assets/img/Main/Benefits/2_hotel-mobile.webp"
                   alt="Second shot of the hotel"
                   loading="lazy"
                />
                <img
+                  width="477"
+                  height="260"
                   class="showing slider_images_wrapper_item hotel_images"
                   src="@/assets/img/Main/Benefits/1_hotel-mobile.webp"
                   alt="Fisrt shot of the hotel"

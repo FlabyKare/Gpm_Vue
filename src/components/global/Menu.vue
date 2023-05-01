@@ -25,6 +25,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/GPM_Link.png"
                      alt="Icon of link"
                   />
@@ -38,6 +40,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/CPN_Contact.png"
                      alt="Icon of contact"
                   />
@@ -51,6 +55,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/GPM_Mail.png"
                      alt="Icon of email"
                   />
@@ -64,6 +70,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/GPM_Travel.png"
                      alt="Icon of travel"
                   />
@@ -77,6 +85,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/GPM_Token.png"
                      alt="Icon of token"
                   />
@@ -90,6 +100,8 @@
             >
                <a href="#" class="dropdown_link">
                   <img
+                     width="17px"
+                     height="23px"
                      src="@/assets/img/Navigation/GPM_Dollar.png"
                      alt="Icon of vaulue"
                   />
@@ -200,7 +212,6 @@
          >
             <a width="100%" href="#" loading="lazy"
                ><img
-                  width="100%"
                   src="@/assets/img/Navigation/Spanish.png"
                   alt="Icon of Spanish language"
                   loading="lazy"
