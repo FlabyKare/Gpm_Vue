@@ -1135,11 +1135,24 @@ body::-webkit-scrollbar-button {
   -webkit-transition: 1s !important;
   transition: 1s !important;
 }
+.white_mode_color.active .gradient_btn * {
+  color: #fff !important;
+}
 .white_mode_color.active .gradient_btn:hover {
+  color: #a67afd !important;
+}
+.white_mode_color.active .gradient_btn:hover * {
   color: #a67afd !important;
 }
 .white_mode_color.active .box {
   z-index: 1 !important;
+}
+
+#roadmap_list p {
+  color: #fff !important;
+}
+#roadmap_list p * {
+  color: #fff !important;
 }
 
 .gradient_btn {

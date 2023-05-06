@@ -17,14 +17,14 @@
          loading="lazy"
       />
 
-      <ul class="roadmap_list container" loading="lazy">
+      <ul id="roadmap_list" class="roadmap_list container" loading="lazy">
          <li
             class="roadmat_list_item animation_fromRight_to_left element-animation"
             loading="lazy"
          >
             <span class="green">Q1</span>
-            <p class="white_mode_color">KYC integration</p>
-            <p class="white_mode_color">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
          </li>
 
          <li
@@ -32,8 +32,8 @@
             loading="lazy"
          >
             <span class="orange">Q2</span>
-            <p class="white_mode_color">KYC integration</p>
-            <p class="white_mode_color">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
          </li>
 
          <li
@@ -41,8 +41,8 @@
             loading="lazy"
          >
             <span class="purple">Q3</span>
-            <p class="white_mode_color">KYC integration</p>
-            <p class="white_mode_color">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
          </li>
 
          <li
@@ -50,8 +50,8 @@
             loading="lazy"
          >
             <span class="yellow">Q4</span>
-            <p class="white_mode_color">KYC integration</p>
-            <p class="white_mode_color">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
          </li>
 
          <li
@@ -59,8 +59,8 @@
             loading="lazy"
          >
             <span class="blue">Q5</span>
-            <p class="white_mode_color">KYC integration</p>
-            <p class="white_mode_color">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
+            <p class="roadmap_text">KYC integration</p>
          </li>
       </ul>
    </section>
@@ -124,6 +124,7 @@
    &:hover {
       transform: translate(0, 0) scale(1.05) !important;
    }
+
    * {
       cursor: pointer;
    }
@@ -132,9 +133,12 @@
       font-weight: 500;
       font-size: 16px;
       line-height: 24px;
-      color: #ffffff;
+      color: #ffffff !important;
       text-align: center;
       width: 100%;
+      * {
+         color: #ffffff !important;
+      }
    }
    span {
       position: absolute;

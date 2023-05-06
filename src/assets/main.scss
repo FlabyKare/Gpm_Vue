@@ -355,13 +355,27 @@ $white-mode-color: #efefef;
    .gradient_btn {
       color: #fff !important;
       transition: 1s !important;
+      * {
+         color: #fff !important;
+      }
       &:hover {
          color: #a67afd !important;
+         * {
+            color: #a67afd !important;
+         }
       }
    }
 
    .box {
       z-index: 1 !important;
+   }
+}
+#roadmap_list {
+   p {
+      color: #fff !important;
+      * {
+         color: #fff !important;
+      }
    }
 }
 //! Стили для кнопок на сайте
