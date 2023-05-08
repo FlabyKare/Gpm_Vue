@@ -1,7 +1,19 @@
 <template>
    <section class="app_info white_mode_color" loading="lazy">
-      <img src="@/assets/img/blur.png" class="box" loading="lazy" />
-      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box"
+         loading="lazy"
+      />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box2"
+         loading="lazy"
+      />
 
       <span class="white_mode_color"></span>
       <aside class="app_info_wrapper container" loading="lazy">
@@ -49,7 +61,13 @@
          </article>
       </aside>
 
-      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box2"
+         loading="lazy"
+      />
    </section>
 </template>
 

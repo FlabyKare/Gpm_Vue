@@ -12,7 +12,13 @@
          <div class="circle" loading="lazy"></div>
       </div>
    </div>
-   <img src="@/assets/img/blur.png" class="box" loading="lazy" />
+   <img
+      width="500"
+      height="500"
+      src="@/assets/img/blur.webp"
+      class="box"
+      loading="lazy"
+   />
 
    <header class="main_page_header" loading="lazy">
       <Menu />
@@ -28,8 +34,6 @@
    position: absolute;
    top: 0;
    left: 0;
-   width: 500px;
-   height: 500px;
    border-radius: 50%;
    background: rgb(111, 0, 255);
    background: linear-gradient(
@@ -37,8 +41,6 @@
       rgba(111, 0, 255, 1) 0%,
       rgba(1, 237, 251, 1) 100%
    );
-   filter: blur(50px);
-   opacity: 0.2;
 }
 .nav_wrapper {
    * {

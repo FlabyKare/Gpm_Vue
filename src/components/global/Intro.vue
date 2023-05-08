@@ -33,7 +33,13 @@
          alt="Profiles of peoples"
       />
 
-      <img src="@/assets/img/blur.png" class="box" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box"
+         loading="lazy"
+      />
    </section>
 </template>
 

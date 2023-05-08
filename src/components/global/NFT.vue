@@ -1,6 +1,12 @@
 <template>
    <section class="nft_wrapper white_mode_color" loading="lazy">
-      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box2"
+         loading="lazy"
+      />
 
       <h3
          class="default_title animation_fromRight_to_left element-animation"
@@ -71,7 +77,13 @@
          </article>
       </aside>
 
-      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box2"
+         loading="lazy"
+      />
    </section>
 </template>
 

@@ -52,9 +52,27 @@
             loading="lazy"
          />
       </li>
-      <img src="@/assets/img/blur.png" class="box box2" loading="lazy" />
-      <img src="@/assets/img/blur.png" class="box box3" loading="lazy" />
-      <img src="@/assets/img/blur.png" class="box box4" loading="lazy" />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box2"
+         loading="lazy"
+      />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box3"
+         loading="lazy"
+      />
+      <img
+         width="500"
+         height="500"
+         src="@/assets/img/blur.webp"
+         class="box box4"
+         loading="lazy"
+      />
    </ul>
 </template>
 <script>
